@@ -1,4 +1,4 @@
-> my attempt to collate all the benchmarking relults for machine learning problems(DL, NLP, Computer Vision and Reinforcement learning) on yearly basis
+> my attempt to collate all the benchmarking results for machine learning problems(DL, NLP, Computer Vision and Reinforcement learning) on yearly basis
 
 --------------------
 
