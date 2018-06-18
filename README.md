@@ -13,6 +13,11 @@ with reference to work being done by some researchers(popular in github)
 - [DeepBench](https://github.com/baidu-research/DeepBench)
 - [deepmark](https://github.com/DeepMark/deepmark)
 - [RNNLG](https://github.com/shawnwun/RNNLG)
+- [Texygen](https://github.com/geek-ai/Texygen)
+- [word-embeddings-benchmarks](https://github.com/kudkudak/word-embeddings-benchmarks)
+- [sklearn-benchmarks](https://github.com/rhiever/sklearn-benchmarks)
+- [rnn-benchmarks](https://github.com/glample/rnn-benchmarks)
+- [nlu-benchmark](https://github.com/snipsco/nlu-benchmark)
 
 ------------------
 
