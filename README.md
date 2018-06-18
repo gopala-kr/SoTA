@@ -18,6 +18,8 @@ with reference to work being done by some researchers(popular in github)
 - [sklearn-benchmarks](https://github.com/rhiever/sklearn-benchmarks)
 - [rnn-benchmarks](https://github.com/glample/rnn-benchmarks)
 - [nlu-benchmark](https://github.com/snipsco/nlu-benchmark)
+- [dlbench](https://github.com/hclhkbu/dlbench)
+- [vgg-benchmarks](https://github.com/aizvorski/vgg-benchmarks)
 
 ------------------
 
