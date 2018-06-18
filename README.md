@@ -11,6 +11,8 @@ with reference to work being done by some researchers(popular in github)
 - [benchm-ml](https://github.com/szilard/benchm-ml)
 - [TCN](https://github.com/locuslab/TCN)
 - [DeepBench](https://github.com/baidu-research/DeepBench)
+- [deepmark](https://github.com/DeepMark/deepmark)
+- [RNNLG](https://github.com/shawnwun/RNNLG)
 
 ------------------
 
