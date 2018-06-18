@@ -1,4 +1,4 @@
-> my attempt to collate all the benchmarking results for machine learning problems(DL, NLP, Computer Vision and Reinforcement learning) on yearly basis
+> My attempt to collate all the benchmarking results for machine learning problems(DL, NLP, Computer Vision and Reinforcement learning) on yearly basis
 
 --------------------
 
@@ -20,6 +20,8 @@ with reference to work being done by some researchers(popular in github)
 - [nlu-benchmark](https://github.com/snipsco/nlu-benchmark)
 - [dlbench](https://github.com/hclhkbu/dlbench)
 - [vgg-benchmarks](https://github.com/aizvorski/vgg-benchmarks)
+- [deep-learning-benchmark](https://github.com/u39kun/deep-learning-benchmark) 
+- [TextClassificationBenchmark](https://github.com/wabyking/TextClassificationBenchmark)
 
 ------------------
 
