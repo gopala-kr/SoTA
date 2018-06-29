@@ -22,6 +22,7 @@ with reference to work being done by some researchers(popular in github)
 - [vgg-benchmarks](https://github.com/aizvorski/vgg-benchmarks)
 - [deep-learning-benchmark](https://github.com/u39kun/deep-learning-benchmark) 
 - [TextClassificationBenchmark](https://github.com/wabyking/TextClassificationBenchmark)
+- [AI Progress Measurement](https://www.eff.org/ai/metrics)
 
 ------------------
 
