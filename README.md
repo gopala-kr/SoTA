@@ -25,6 +25,10 @@ with reference to work being done by some researchers(popular in github)
 - [AI Progress Measurement](https://www.eff.org/ai/metrics)
 - [Stochastic Weight Averaging](https://towardsdatascience.com/stochastic-weight-averaging-a-new-way-to-get-state-of-the-art-results-in-deep-learning-c639ccf36a)
 - [mlperf-reference](https://github.com/mlperf/reference)
+- [Stanford: DAWNBench
+An End-to-End Deep Learning Benchmark and Competition
+Image Classification (ImageNet)](https://dawn.cs.stanford.edu/benchmark/index.html)
+
 
 ------------------
 
