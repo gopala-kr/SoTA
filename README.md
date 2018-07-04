@@ -24,6 +24,7 @@ with reference to work being done by some researchers(popular in github)
 - [TextClassificationBenchmark](https://github.com/wabyking/TextClassificationBenchmark)
 - [AI Progress Measurement](https://www.eff.org/ai/metrics)
 - [Stochastic Weight Averaging](https://towardsdatascience.com/stochastic-weight-averaging-a-new-way-to-get-state-of-the-art-results-in-deep-learning-c639ccf36a)
+- [mlperf-reference](https://github.com/mlperf/reference)
 
 ------------------
 
