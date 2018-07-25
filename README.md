@@ -1,9 +1,17 @@
 
 
 
-|| [state-of-the-art-result-for-machine-learning-problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) | [convnet-benchmarks](https://github.com/soumith/convnet-benchmarks) | [cnn-benchmarks](https://github.com/jcjohnson/cnn-benchmarks) | [caffenet-benchmark](https://github.com/ducha-aiki/caffenet-benchmark) | [deepmark](https://github.com/DeepMark/deepmark) | [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) | [penn-ml-benchmarks](https://github.com/EpistasisLab/penn-ml-benchmarks) | [benchmark_results](https://github.com/foolwood/benchmark_results) | [dl4j-accuracy](https://deeplearning4j.org/accuracy) | [nlp-architect](https://github.com/NervanaSystems/nlp-architect) | [NLP-progress](https://github.com/sebastianruder/NLP-progress) ||
-
-
+- [state-of-the-art-result-for-machine-learning-problems](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems) 
+- [convnet-benchmarks](https://github.com/soumith/convnet-benchmarks) 
+- [cnn-benchmarks](https://github.com/jcjohnson/cnn-benchmarks) 
+- [caffenet-benchmark](https://github.com/ducha-aiki/caffenet-benchmark) 
+- [deepmark](https://github.com/DeepMark/deepmark) 
+- [ann-benchmarks](https://github.com/erikbern/ann-benchmarks) 
+- [penn-ml-benchmarks](https://github.com/EpistasisLab/penn-ml-benchmarks) 
+- [benchmark_results](https://github.com/foolwood/benchmark_results) 
+- [dl4j-accuracy](https://deeplearning4j.org/accuracy) 
+- [nlp-architect](https://github.com/NervanaSystems/nlp-architect) 
+- [NLP-progress](https://github.com/sebastianruder/NLP-progress)
 - [benchm-ml](https://github.com/szilard/benchm-ml)
 - [TCN](https://github.com/locuslab/TCN)
 - [DeepBench](https://github.com/baidu-research/DeepBench)
