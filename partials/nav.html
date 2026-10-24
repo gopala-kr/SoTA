@@ -1,0 +1,94 @@
+<nav class="navbar">
+  <!-- ═══ Ribbon 1: Brand ═══ -->
+  <div class="navbar-brand">
+    <a href="{{ROOT}}index.html" class="logo"><svg class="logo-icon" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="logoGradL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#93c5fd"/></linearGradient><linearGradient id="logoGradR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#99f6e4"/></linearGradient></defs><g fill="none" stroke="url(#logoGradL)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M100 30c-30 0-52 16-58 38-4 15 0 26 6 33-7 8-10 18-8 29 3 15 15 26 30 28 3 12 14 20 27 20h3V30z"/><path d="M62 78c10 4 22 3 30-6"/><path d="M56 108c9 5 20 5 28-2"/></g><g fill="none" stroke="url(#logoGradR)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M100 30c30 0 52 16 58 38 4 15 0 26-6 33 7 8 10 18 8 29-3 15-15 26-30 28-3 12-14 20-27 20h-3V30z"/><path d="M100 62l22 0 14-14"/><path d="M122 62l0 24 20 0"/><path d="M122 86l-18 18 0 20"/></g><g fill="url(#logoGradR)"><circle cx="136" cy="48" r="7"/><circle cx="142" cy="86" r="7"/><circle cx="104" cy="104" r="7"/></g></svg> FrontierAGI Academy</a>
+    <span class="navbar-brand-tagline">Build · Learn · Explore</span>
+  </div>
+  <!-- ═══ Ribbon 2: Navigation ═══ -->
+  <div class="navbar-main">
+    <button class="nav-tab{{ACTIVE_mode}}" data-panel="mode">🎓 Learning Mode <i class="nav-chevron">▼</i></button>
+    <div class="navbar-sep"></div>
+    <button class="nav-tab{{ACTIVE_explore}}" data-panel="explore">🧭 Explore <i class="nav-chevron">▼</i></button>
+    <button class="nav-tab{{ACTIVE_ecosystems}}" data-panel="ecosystems">🌏 AI Ecosystems <i class="nav-chevron">▼</i></button>
+    <div class="navbar-sep"></div>
+    <a href="{{PAGES}}ai-news.html" class="nav-item{{ACTIVE_news}}">📰 Daily AI News</a>
+    <button class="nav-tab{{ACTIVE_blog}}" data-panel="blog">✍️ Blog <i class="nav-chevron">▼</i></button>
+  </div>
+</nav>
+
+<!-- ═══ Slide-down Nav Panels ═══ -->
+<div class="nav-backdrop" id="navBackdrop"></div>
+<div class="nav-panel-wrap" id="navPanelWrap">
+
+  <div class="nav-panel" id="navPanel-mode">
+    <div class="nav-panel-inner">
+      <div class="nav-panel-hd nav-dd-mode">
+        <div class="nav-panel-hd-title">🎓 Learning Mode</div>
+        <div class="nav-panel-hd-sub">Choose your perspective on LLMs</div>
+      </div>
+      <div class="nav-panel-items mode-grid">
+        <a href="{{PAGES}}frontier-model-learning.html?mode=layman" class="mode-panel-btn">🙋 Layman</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=graduate" class="mode-panel-btn">🎓 Graduate</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=researcher" class="mode-panel-btn">🔬 Researcher</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=team" class="mode-panel-btn">👥 Team</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=startup" class="mode-panel-btn">🏢 Startup</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=investor" class="mode-panel-btn">💰 Investor</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=founder" class="mode-panel-btn">🧭 Founder</a>
+        <a href="{{PAGES}}frontier-model-learning.html?mode=agentmode" class="mode-panel-btn">⚡ Agentic</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-panel" id="navPanel-explore">
+    <div class="nav-panel-inner">
+      <div class="nav-panel-hd nav-dd-explore">
+        <div class="nav-panel-hd-title">🧭 Explore</div>
+        <div class="nav-panel-hd-sub">Deep-dive resources &amp; timelines</div>
+      </div>
+      <div class="nav-panel-items">
+        <a href="{{PAGES}}start-here.html" class="panel-btn">🧭 Start Here: Reading Paths</a>
+        <a href="{{PAGES}}idea-flow.html" class="panel-btn">🚇 AI Idea Flow: 1950 → Today</a>
+        <a href="{{PAGES}}rsi-evolution.html" class="panel-btn">♻️ RSI Evolution Map</a>
+        <a href="{{PAGES}}idea-map.html" class="panel-btn">🌌 AI Idea Map (3D)</a>
+        <a href="{{PAGES}}lab-updates.html" class="panel-btn">🆕 Frontier Lab Updates</a>
+        <a href="{{PAGES}}frontier-timeline.html" class="panel-btn">🗺️ FrontierAI Timeline</a>
+        <a href="{{PAGES}}future-frontier.html" class="panel-btn">🔮 Future Frontier</a>
+        <a href="{{PAGES}}llm-engineering.html" class="panel-btn">⚙️ LLM Engineering</a>
+        <a href="{{PAGES}}coding-agents.html" class="panel-btn">🤖 Coding Agents</a>
+        <a href="{{BLOG}}founding-agi-startup-series.html" class="panel-btn">🚀 Founding an AGI Startup</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-panel" id="navPanel-ecosystems">
+    <div class="nav-panel-inner">
+      <div class="nav-panel-hd nav-dd-eco">
+        <div class="nav-panel-hd-title">🌏 AI Ecosystems</div>
+        <div class="nav-panel-hd-sub">Country-level AI market deep dives</div>
+      </div>
+      <div class="nav-panel-items">
+        <a href="{{PAGES}}sovereign-ai.html" class="panel-btn">🏛️ Sovereign AI</a>
+        <a href="{{PAGES}}usa-ai.html" class="panel-btn">🇺🇸 America AI</a>
+        <a href="{{PAGES}}china-ai.html" class="panel-btn">🇨🇳 China AI</a>
+        <a href="{{PAGES}}europe-ai.html" class="panel-btn">🇪🇺 Europe AI</a>
+        <a href="{{PAGES}}india-ai.html" class="panel-btn">🇮🇳 India AI</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-panel" id="navPanel-blog">
+    <div class="nav-panel-inner">
+      <div class="nav-panel-hd nav-dd-blog">
+        <div class="nav-panel-hd-title">✍️ Blog</div>
+        <div class="nav-panel-hd-sub">Articles from the team</div>
+      </div>
+      <div class="nav-panel-items nav-panel-blog-items">
+        <a href="{{PAGES}}blog.html" class="panel-btn nav-panel-blog-all">📋 All Posts</a>
+        <div class="nav-panel-divider"></div>
+        <div class="nav-panel-label">Recent Posts</div>
+        <div id="blogNavMenu"><!-- populated by JS --></div>
+      </div>
+    </div>
+  </div>
+
+</div>
