@@ -1,0 +1,350 @@
+{
+  "generated_by": "scripts/build.py",
+  "series": [
+    {
+      "id": "sec-ai-progress",
+      "title": "AI Research Progress Through the Years",
+      "short": "AI Research Progress Through the Years",
+      "icon": "📅",
+      "slugs": [
+        "ai-research-2026-papers",
+        "ai-research-2025-papers",
+        "ai-research-2024-papers",
+        "ai-research-2023-papers",
+        "ai-research-2022-papers",
+        "ai-research-2021-papers",
+        "ai-research-2020-papers",
+        "ai-research-2019-papers",
+        "ai-research-2018-papers",
+        "ai-research-2017-papers",
+        "ai-research-2016-papers",
+        "ai-research-2015-papers",
+        "ai-research-2014-papers",
+        "ai-research-2013-papers",
+        "ai-research-2012-papers",
+        "ai-research-2011-papers",
+        "ai-research-2001-2010-papers",
+        "ai-research-1980-2000-papers",
+        "ai-research-1950-1980-papers"
+      ]
+    },
+    {
+      "id": "sec-rsi",
+      "title": "The Recursive Self-Improvement Series",
+      "short": "The Recursive Self-Improvement Series",
+      "icon": "🔁",
+      "slugs": [
+        "recursive-self-improvement-primer",
+        "rsi-ai-automating-ai-research",
+        "rsi-objective-specification-problem",
+        "rsi-distillation-centralization-moat",
+        "rsi-data-vs-reinforcement-learning",
+        "rsi-sim-to-real-gap",
+        "rsi-autonomy-timelines",
+        "rsi-bonus-capability-evaluation-breakouts",
+        "rsi-literature-survey",
+        "rsi-2026-breakthroughs",
+        "rsi-practitioners-primer"
+      ]
+    },
+    {
+      "id": "sec-capstack",
+      "title": "The AGI Capability Stack: Levers, Gaps & Per-Lab Timelines",
+      "short": "The AGI Capability Stack",
+      "icon": "📈",
+      "slugs": [
+        "frontier-innovation-levers",
+        "agi-capability-stack-mapped",
+        "agi-threshold-capability-stack",
+        "agi-models-astra-claude-gemini",
+        "gpt-series-agi-stack-timeline",
+        "claude-series-agi-stack-timeline",
+        "gemini-series-agi-stack-timeline",
+        "grok-deepseek-qwen-agi-stack-timeline",
+        "agi-lever-gaps-new-entrants",
+        "agi-startups-to-watch",
+        "memory-continual-learning-agi-race",
+        "interpretability-gap-reading-model-minds",
+        "power-bottleneck-ai-infrastructure-race"
+      ]
+    },
+    {
+      "id": "sec-llm-pipeline",
+      "title": "How LLMs Are Built: One In-Depth Article per Stage",
+      "short": "How LLMs Are Built",
+      "icon": "🛠️",
+      "slugs": [
+        "transformer-to-agentic-ai-complete-stack",
+        "how-a-transformer-works-decoder-only",
+        "how-llm-pretraining-works",
+        "how-llm-fine-tuning-works",
+        "how-llm-post-training-works",
+        "how-llm-inference-works",
+        "how-llm-scaling-and-distributed-training-works",
+        "production-llm-system-design",
+        "context-engineering-and-memory",
+        "rag-retrieval-augmented-generation",
+        "tool-and-function-calling",
+        "agentic-systems-multi-step-goals",
+        "multi-agent-systems-architecture",
+        "agent-memory-and-planning-patterns",
+        "mcp-model-context-protocol",
+        "production-agent-architecture",
+        "evaluating-agents",
+        "llm-harness-engineering"
+      ]
+    },
+    {
+      "id": "sec-frontier-arch",
+      "title": "Latest in Frontier Model Architecture & Reasoning — 4-Lens Review",
+      "short": "Latest in Frontier Model Architecture & Reasoning — 4-Lens Review",
+      "icon": "🧬",
+      "slugs": [
+        "frontier-model-research-and-innovation",
+        "frontier-model-production-engineering",
+        "frontier-model-market-landscape",
+        "frontier-model-case-studies"
+      ]
+    },
+    {
+      "id": "sec-harness",
+      "title": "Latest in Harness Engineering (Agentic Scaffoldings) — 4-Lens Review",
+      "short": "Latest in Harness Engineering (Agentic Scaffoldings) — 4-Lens Review",
+      "icon": "🧰",
+      "slugs": [
+        "harness-scaffolding-research-and-innovation",
+        "harness-production-engineering",
+        "harness-market-landscape",
+        "harness-case-studies",
+        "openai-agents-api-codex-harness",
+        "claude-agent-sdk-managed-agents",
+        "deepseek-harness-dsh",
+        "harness-architecture-comparison",
+        "agentic-developer-workbenches",
+        "harness-across-real-world-contexts"
+      ]
+    },
+    {
+      "id": "sec-practical-rsi",
+      "title": "Practical RSI — How Agents Are Starting to Improve Themselves",
+      "short": "Practical RSI — How Agents Are Starting to Improve Themselves",
+      "icon": "♻️",
+      "slugs": [
+        "recursive-harness-self-improvement",
+        "are-we-approaching-rsi",
+        "ai-doing-rd",
+        "self-improving-agentic-systems",
+        "automated-rd-to-effective-rsi",
+        "open-problems-in-rsi"
+      ]
+    },
+    {
+      "id": "sec-architecture",
+      "title": "Architecture & Learning Technique: How the Field Actually Got Here",
+      "short": "Architecture & Learning Technique",
+      "icon": "🧬",
+      "slugs": [
+        "evolution-of-neural-networks",
+        "how-each-architecture-actually-learned",
+        "two-threads-architecture-vs-learning-technique",
+        "after-transformers-current-methods-and-dead-ends",
+        "agi-debate-scaling-vs-new-architectures",
+        "how-to-read-a-paper-like-a-researcher"
+      ]
+    },
+    {
+      "id": "sec-explainers",
+      "title": "Topic Explainers: Standalone Deep Dives",
+      "short": "Topic Explainers",
+      "icon": "🔍",
+      "slugs": [
+        "typesafe-jev-system-one-models-explained",
+        "world-models",
+        "physical-intelligence",
+        "multimodal-consolidation",
+        "voice-ai-models",
+        "image-video-ai-models",
+        "reasoning-models-test-time-compute",
+        "ai-chips-compute-infrastructure",
+        "rag-retrieval-knowledge-stack",
+        "ai-agents-enterprise-economy",
+        "ai-safety-alignment-interpretability",
+        "agentic-loop-explained",
+        "frontier-model-pricing",
+        "filmmaking-encyclopedia"
+      ]
+    },
+    {
+      "id": "sec-lineage",
+      "title": "The Model Lineage Series",
+      "short": "The Model Lineage Series",
+      "icon": "🗂️",
+      "slugs": [
+        "gpt-lineage-consolidated-comparison",
+        "claude-lineage-consolidated-comparison",
+        "gemini-lineage-consolidated-comparison",
+        "grok-lineage-consolidated-comparison",
+        "deepseek-lineage-consolidated-comparison",
+        "meta-llama-lineage-consolidated-comparison",
+        "mistral-lineage-consolidated-comparison",
+        "qwen-lineage-consolidated-comparison"
+      ]
+    },
+    {
+      "id": "sec-case-studies",
+      "title": "Model Case Studies: How Each Model Was Actually Built",
+      "short": "Model Case Studies",
+      "icon": "🏗️",
+      "slugs": [
+        "gpt-1-how-it-was-built",
+        "gpt-2-how-it-was-built",
+        "gpt-3-how-it-was-built",
+        "gpt-4-how-it-was-built",
+        "gpt-5-how-it-was-built",
+        "gpt-6-how-it-was-built",
+        "claude-1-how-it-was-built",
+        "claude-2-how-it-was-built",
+        "deepmind-founding-merger-how-it-was-built"
+      ]
+    },
+    {
+      "id": "sec-reference",
+      "title": "Reference Series: Benchmarks, Research Direction & the People Behind It",
+      "short": "Reference Series",
+      "icon": "📊",
+      "slugs": [
+        "compute-frontier-ai-infrastructure-explainer",
+        "top-ai-research-phd-programs",
+        "frontier-ai-research-study-stack",
+        "rsi-hands-on-repo-walkthrough",
+        "rsi-practitioners-primer",
+        "rsi-2026-breakthroughs",
+        "rsi-literature-survey",
+        "frontier-ai-benchmark-landscape",
+        "agi-benchmarks-measuring-the-undefined",
+        "stanford-ai-index-2026-research-directions",
+        "ai-researcher-atlas"
+      ]
+    },
+    {
+      "id": "sec-cs336",
+      "title": "Language Modeling from Scratch: A Guide to Stanford's CS336",
+      "short": "Language Modeling from Scratch",
+      "icon": "🧱",
+      "slugs": [
+        "cs336-language-modeling-from-scratch-part1-overview",
+        "cs336-tokenization-byte-pair-encoding-part2",
+        "cs336-pytorch-resource-accounting-part3",
+        "cs336-architectures-hyperparameters-part4"
+      ]
+    },
+    {
+      "id": "sec-cs329a",
+      "title": "Self-Improving AI Agents: A Guide to Stanford's CS329A",
+      "short": "Self-Improving AI Agents",
+      "icon": "🎓",
+      "slugs": [
+        "cs329a-self-improving-agents-handbook",
+        "cs329a-agentic-feedback-loops",
+        "cs329a-planning-as-search",
+        "cs329a-training-on-what-search-finds",
+        "cs329a-competitive-programming-and-retrieval-agents",
+        "cs329a-evaluation-and-open-problems"
+      ]
+    },
+    {
+      "id": "sec-foundations",
+      "title": "AGI Researcher Foundations: An 11-Part Curriculum",
+      "short": "AGI Researcher Foundations",
+      "icon": "🎓",
+      "slugs": [
+        "agi-researcher-foundations-technical-stack",
+        "agi-researcher-foundations-self-assessment-deep-dive",
+        "agi-researcher-foundations-mathematical-foundations",
+        "agi-researcher-foundations-core-deep-learning-concepts",
+        "agi-researcher-foundations-generalization-learning-theory",
+        "agi-researcher-foundations-rl-foundations",
+        "agi-researcher-foundations-interpretability",
+        "agi-researcher-foundations-alignment",
+        "agi-researcher-foundations-world-models",
+        "agi-researcher-foundations-systems",
+        "agi-researcher-foundations-capstone"
+      ]
+    },
+    {
+      "id": "sec-practicum",
+      "title": "Frontier Lab Engineering Practicum: A 9-Part Practitioner's Companion",
+      "short": "Frontier Lab Engineering Practicum",
+      "icon": "🧑‍💻",
+      "slugs": [
+        "frontier-lab-engineering-day-one-onboarding",
+        "frontier-lab-engineering-production-training-code",
+        "frontier-lab-engineering-debugging-distributed-jobs",
+        "frontier-lab-engineering-compute-economics",
+        "frontier-lab-engineering-custom-kernels",
+        "frontier-lab-engineering-oncall-reality",
+        "frontier-lab-engineering-other-teams-code",
+        "frontier-lab-engineering-idea-to-merged-pr",
+        "frontier-lab-engineering-week-in-the-life"
+      ]
+    },
+    {
+      "id": "sec-path",
+      "title": "The Researcher's Path: Careers, Labs & Field Notes",
+      "short": "The Researcher's Path",
+      "icon": "🧭",
+      "slugs": [
+        "ai-researcher-field-guide",
+        "agi-researcher-day-in-life",
+        "ai-research-frontier-map-labs-compared",
+        "ssi-complete-investigation"
+      ]
+    },
+    {
+      "id": "sec-startup",
+      "title": "Founding an AGI Startup: The Complete 12-Part Series",
+      "short": "Founding an AGI Startup",
+      "icon": "🚀",
+      "slugs": [
+        "founding-agi-startup-series",
+        "founding-agi-startup-01-finding-idea",
+        "founding-agi-startup-02-legal-foundations",
+        "founding-agi-startup-03-founding-team",
+        "founding-agi-startup-04-seed-capital",
+        "founding-agi-startup-05-office-ops-infrastructure",
+        "founding-agi-startup-06-building-product",
+        "founding-agi-startup-07-research-function",
+        "founding-agi-startup-08-gtm-marketing",
+        "founding-agi-startup-09-sales-early-customers",
+        "founding-agi-startup-10-scaling-series-a",
+        "founding-agi-startup-11-surviving-market",
+        "founding-agi-startup-12-financial-modeling"
+      ]
+    },
+    {
+      "id": "sec-lanes",
+      "title": "AGI Startup Lane Deep Dives: Three Bets, Two Angles Each",
+      "short": "AGI Startup Lane Deep Dives",
+      "icon": "🎯",
+      "slugs": [
+        "building-agi-startup-lane1-frontier-scale",
+        "building-agi-startup-lane2-applied-agentic",
+        "building-agi-startup-lane3-narrow-research-bet",
+        "building-agi-startup-team-profiles-resumes",
+        "inside-agi-team-lane1-frontier-scale",
+        "inside-agi-team-lane2-applied-agentic",
+        "inside-agi-team-lane3-narrow-research-bet"
+      ]
+    },
+    {
+      "id": "sec-econ",
+      "title": "Economics & Society: What AI Progress Does to the Rest of the World",
+      "short": "Economics & Society",
+      "icon": "💼",
+      "slugs": [
+        "ai-productivity-paradox-layoffs",
+        "ai-productivity-paradox-civilization"
+      ]
+    }
+  ]
+}
