@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gopalakrbiec-ui.github.io/FrontierAGI-Academy/sitemap.xml
