@@ -1,0 +1,14 @@
+name: Authoring sessions (articles, maps, data)
+runner: Claude Code session prompted by the owner
+trigger: the owner's message (turn by turn)
+stop_condition: build.py --check clean, guard_validators.py and run_article_code.py clean, Playwright at 1400 and 390 px with no page errors or overflow, key figures screenshotted and reviewed
+state: [CLAUDE.md, docs/LESSONS.md, docs/BACKLOG.md, docs/LOOP-ENGINEERING.md]
+verifier:
+  - scripts/build.py validate_content (disclosure, code-in-sync, ran-or-labelled, scenario boxes, validators wired)
+  - scripts/run_article_code.py
+  - the owner
+limits:
+  never_touch: ["data/hf-papers.json", "data/rsi-papers.json"]   # owned by GitHub Actions
+  rules: no fabricated facts; ⚠️ for secondary sources; scenario outcomes boxed; no model identifiers in repo files
+escalation: ask the owner when a fact cannot be verified or a design choice is theirs
+autonomy: turn by turn

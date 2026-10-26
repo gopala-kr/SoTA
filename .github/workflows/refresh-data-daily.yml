@@ -1,0 +1,73 @@
+name: Refresh data daily
+
+# Daily refresh of the two graphs whose data comes from a feed:
+#   - HF Paper Themes  (Hugging Face Daily Papers; the current month is kept as "in progress")
+#   - RSI Evolution Map (Awesome-RSI catalog)
+# The hand-checked graphs (Model Release Map, Lab Updates) are NOT touched here; see the weekly review routine.
+# Scheduled runs only fire on the repository's default branch. Run by hand from the Actions tab on any branch.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: refresh-data-daily
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh Hugging Face papers
+        id: hf
+        continue-on-error: true
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python3 scripts/import_hf_papers.py --resume --include-current
+
+      - name: Refresh the RSI catalog
+        id: rsi
+        continue-on-error: true
+        run: python3 scripts/import_awesome_rsi.py
+
+      - name: Rebuild generated files and validate
+        id: check
+        run: |
+          python3 scripts/build.py
+          python3 scripts/build.py --check
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily data refresh (HF papers, RSI catalog)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Report failures
+        if: steps.hf.outcome == 'failure' || steps.rsi.outcome == 'failure' || failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const hf = '${{ steps.hf.outcome }}', rsi = '${{ steps.rsi.outcome }}', chk = '${{ steps.check.outcome }}';
+            const title = 'Daily data refresh had a problem';
+            const body = `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}\n\n- HF papers: ${hf}\n- RSI catalog: ${rsi}\n- Build and checks: ${chk}\n\nCompleted months are still committed. HF rate limiting (429) is the usual cause; add an HF_TOKEN secret or re-run the workflow.`;
+            const open = await github.rest.issues.listForRepo({ ...context.repo, state: 'open', labels: 'data-refresh' });
+            const existing = open.data.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ ...context.repo, title, body, labels: ['data-refresh'] });
+            }

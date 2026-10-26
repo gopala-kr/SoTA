@@ -1,0 +1,17 @@
+name: Weekly model release + stack innovation review
+runner: claude.ai scheduled task trig_01RTwBZBGNcmzUNrBzVzXQrE (Mondays 06:07 UTC)
+trigger: cron weekly
+stop_condition: a pull request auto/releases-YYYY-MM-DD is opened, or the state file records "nothing qualified" with what was searched
+state: loops/state/weekly-review.md   # read first, appended every run
+verifier:
+  - python3 scripts/build.py --check (validate_models, validate_stack, validate_software, validate_content)
+  - every added item has an https source; secondary sources marked sec:1
+  - the owner reviews the pull request (default: not merged)
+limits:
+  max_research_minutes: 45
+  may_write: [data/lab-updates.json, data/model-releases.json, data/stack-innovations.json, data/software-stack.json, pages/lab-updates.html (range text only), loops/state/weekly-review.md]
+  never_touch: ["data/hf-papers.json", "data/rsi-*.json", "pages/stack-innovations.html", "pages/software-stack-live.html", "scripts/**", "loops/*.yml", ".github/**"]
+  never_push_to: claude/trusting-mendel-u9s1oh
+escalation: after two consecutive runs that end in an error or open no pull request without a recorded reason, open a GitHub issue "weekly-review needs attention"
+autonomy: report-only (pull requests); stays here until outcomes show no rejected item for 8 weeks
+outcomes: track in loops/state/weekly-review.md (accepted / edited / rejected items per run)

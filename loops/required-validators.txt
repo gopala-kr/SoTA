@@ -1,0 +1,10 @@
+# Validators that build.py --check must always run. Removing a line needs an explicit reason in the commit.
+broken_links
+validate_rsi
+validate_rsi_supplement
+validate_discovery
+validate_models
+validate_stack
+validate_software
+validate_hf
+validate_content

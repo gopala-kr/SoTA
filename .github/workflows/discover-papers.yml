@@ -1,0 +1,75 @@
+name: Discover papers and citations
+
+# Weekly: (1) look on arXiv for RSI-style papers not yet in the catalog or supplement (candidates only, for review),
+# (2) refresh OpenAlex citation counts for the papers on the RSI map.
+# Run by hand from the Actions tab at any time. Scheduled runs only fire on the default branch.
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Search arXiv from this date (YYYY-MM-DD)"
+        default: "2026-06-01"
+  schedule:
+    - cron: "43 5 * * 1"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: discover-papers
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Selftests
+        run: |
+          python3 scripts/discover_rsi_candidates.py --selftest
+          python3 scripts/enrich_citations.py --selftest
+
+      - name: Find candidate papers on arXiv
+        id: arxiv
+        continue-on-error: true
+        run: python3 scripts/discover_rsi_candidates.py --since "${{ inputs.since || '2026-06-01' }}"
+
+      - name: Refresh OpenAlex citation counts
+        id: cites
+        continue-on-error: true
+        run: python3 scripts/enrich_citations.py
+
+      - name: Rebuild generated files and validate
+        id: check
+        run: |
+          python3 scripts/build.py
+          python3 scripts/build.py --check
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly discovery: arXiv candidates and OpenAlex citations"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Report problems
+        if: steps.arxiv.outcome == 'failure' || steps.cites.outcome == 'failure' || failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const a = '${{ steps.arxiv.outcome }}', c = '${{ steps.cites.outcome }}', k = '${{ steps.check.outcome }}';
+            const title = 'Weekly paper discovery had a problem';
+            const body = `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}\n\n- arXiv candidates: ${a}\n- OpenAlex citations: ${c}\n- Build and checks: ${k}\n\nThe API response shapes were written without being able to reach arXiv or OpenAlex from the authoring environment, so a first-run failure may need a parser fix. Check the job log.`;
+            const open = await github.rest.issues.listForRepo({ ...context.repo, state: 'open', labels: 'data-refresh' });
+            const existing = open.data.find(i => i.title === title);
+            if (existing) { await github.rest.issues.createComment({ ...context.repo, issue_number: existing.number, body }); }
+            else { await github.rest.issues.create({ ...context.repo, title, body, labels: ['data-refresh'] }); }

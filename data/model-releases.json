@@ -1,0 +1,5230 @@
+{
+"about": "Hand-curated model releases, by modality. LLM-modality rows reference verified items in data/lab-updates.json (ref). open: 1 open weights, 2 research/limited access, 0 closed, null licence not recorded. st: ga available, preview limited or alpha, research announced but not released. sec: 1 means the source is secondary (press or reference site). t marks the first-at-tier milestone items. end: date the product was retired.",
+"range": [
+"2022-04",
+"2026-10"
+],
+"modalities": [
+[
+"llm",
+"Foundation models",
+"🧠"
+],
+[
+"image",
+"Image models",
+"🖼️"
+],
+[
+"video",
+"Video models",
+"🎬"
+],
+[
+"speech",
+"Speech models",
+"🎙️"
+]
+],
+"labs": [
+[
+"openai",
+"OpenAI",
+"OA",
+"#10a37f"
+],
+[
+"anthropic",
+"Anthropic",
+"An",
+"#d97757"
+],
+[
+"google",
+"Google DeepMind",
+"GD",
+"#4285f4"
+],
+[
+"meta",
+"Meta AI",
+"Me",
+"#0866ff"
+],
+[
+"xai",
+"xAI",
+"xA",
+"#111827"
+],
+[
+"microsoft",
+"Microsoft AI",
+"MS",
+"#00a4ef"
+],
+[
+"amazon",
+"Amazon",
+"Am",
+"#ff9900"
+],
+[
+"nvidia",
+"NVIDIA",
+"NV",
+"#76b900"
+],
+[
+"mistral",
+"Mistral AI",
+"Mi",
+"#fa520f"
+],
+[
+"deepseek",
+"DeepSeek",
+"DS",
+"#4d6bfe"
+],
+[
+"qwen",
+"Alibaba Qwen",
+"Qw",
+"#615ced"
+],
+[
+"moonshot",
+"Moonshot AI (Kimi)",
+"Ki",
+"#1f2937"
+],
+[
+"zhipu",
+"Zhipu AI (Z.ai)",
+"Zh",
+"#2563eb"
+],
+[
+"midjourney",
+"Midjourney",
+"Mj",
+"#8b5cf6"
+],
+[
+"stability",
+"Stability AI",
+"St",
+"#7c3aed"
+],
+[
+"bfl",
+"Black Forest Labs",
+"BF",
+"#111827"
+],
+[
+"runway",
+"Runway",
+"Ru",
+"#16a34a"
+],
+[
+"luma",
+"Luma AI",
+"Lu",
+"#0ea5e9"
+],
+[
+"kuaishou",
+"Kuaishou (Kling)",
+"Kl",
+"#f97316"
+],
+[
+"bytedance",
+"ByteDance Seed",
+"By",
+"#0891b2"
+],
+[
+"tencent",
+"Tencent Hunyuan",
+"Tc",
+"#2563eb"
+],
+[
+"elevenlabs",
+"ElevenLabs",
+"11",
+"#334155"
+],
+[
+"kyutai",
+"Kyutai",
+"Ky",
+"#be123c"
+],
+[
+"sesame",
+"Sesame",
+"Se",
+"#a16207"
+],
+[
+"bigscience",
+"BigScience",
+"BS",
+"#f59e0b"
+],
+[
+"minimax",
+"MiniMax",
+"Mm",
+"#e11d48"
+],
+[
+"ideogram",
+"Ideogram",
+"Id",
+"#0d9488"
+]
+],
+"families": [
+[
+"gpt",
+"GPT / o-series"
+],
+[
+"claude",
+"Claude"
+],
+[
+"gemini",
+"Gemini / PaLM"
+],
+[
+"gemma",
+"Gemma"
+],
+[
+"llama",
+"Llama"
+],
+[
+"muse",
+"Muse"
+],
+[
+"gptoss",
+"gpt-oss"
+],
+[
+"grok",
+"Grok"
+],
+[
+"deepseek",
+"DeepSeek"
+],
+[
+"qwen",
+"Qwen"
+],
+[
+"mistral",
+"Mistral"
+],
+[
+"kimi",
+"Kimi"
+],
+[
+"glm",
+"GLM"
+],
+[
+"nemotron",
+"Nemotron"
+],
+[
+"nova",
+"Nova"
+],
+[
+"phi",
+"Phi"
+],
+[
+"mai",
+"MAI"
+],
+[
+"dalle",
+"DALL·E"
+],
+[
+"imagen",
+"Imagen"
+],
+[
+"whisper",
+"Whisper"
+],
+[
+"veo",
+"Veo"
+],
+[
+"nanobanana",
+"Nano Banana"
+],
+[
+"mai-image",
+"MAI-Image"
+],
+[
+"emu",
+"Emu"
+],
+[
+"sora",
+"Sora"
+],
+[
+"gptimage",
+"GPT Image"
+],
+[
+"grokimagine",
+"Grok Imagine"
+],
+[
+"realtime",
+"Realtime API"
+],
+[
+"midjourney",
+"Midjourney"
+],
+[
+"sd",
+"Stable Diffusion"
+],
+[
+"flux",
+"FLUX"
+],
+[
+"qwenimage",
+"Qwen-Image"
+],
+[
+"seedream",
+"Seedream"
+],
+[
+"runway",
+"Runway"
+],
+[
+"luma",
+"Dream Machine"
+],
+[
+"kling",
+"Kling"
+],
+[
+"hunyuan",
+"HunyuanVideo"
+],
+[
+"wan",
+"Wan"
+],
+[
+"seedance",
+"Seedance"
+],
+[
+"moviegen",
+"Movie Gen"
+],
+[
+"voicebox",
+"Voicebox"
+],
+[
+"seamless",
+"Seamless"
+],
+[
+"moshi",
+"Moshi"
+],
+[
+"csm",
+"CSM"
+],
+[
+"eleven",
+"Eleven"
+],
+[
+"mai-voice",
+"MAI-Voice"
+],
+[
+"voxtral",
+"Voxtral"
+],
+[
+"geminitts",
+"Gemini TTS"
+],
+[
+"bert",
+"Transformer / BERT / T5"
+],
+[
+"roberta",
+"RoBERTa"
+],
+[
+"mtnlg",
+"Turing-NLG / Megatron / MT-NLG"
+],
+[
+"gopher",
+"Gopher / Chinchilla"
+],
+[
+"bloom",
+"BLOOM"
+],
+[
+"vit",
+"Vision Transformer"
+],
+[
+"wav2vec",
+"wav2vec / HuBERT"
+],
+[
+"audiolm",
+"AudioLM"
+],
+[
+"vall-e",
+"VALL-E"
+],
+[
+"sd3",
+"Stable Diffusion 3"
+],
+[
+"ideogram",
+"Ideogram"
+],
+[
+"mjvideo",
+"Midjourney Video"
+],
+[
+"ray",
+"Luma Ray"
+],
+[
+"hailuo",
+"Hailuo"
+],
+[
+"gen4",
+"Runway Gen-4"
+],
+[
+"otts",
+"OpenAI audio"
+],
+[
+"novasonic",
+"Nova Sonic"
+],
+[
+"voxtral-stt",
+"Voxtral"
+],
+[
+"qwen-omni",
+"Qwen-Omni"
+],
+[
+"qwentts",
+"Qwen3-TTS"
+],
+[
+"personaplex",
+"PersonaPlex"
+],
+[
+"geminilive",
+"Gemini Live"
+],
+[
+"grokvoice",
+"Grok Voice"
+]
+],
+"tiers": [
+[
+"reason",
+"llm",
+"Reasoning model",
+"A model trained to think through a problem before answering"
+],
+[
+"t2i",
+"image",
+"Text-to-image",
+"Images from a text prompt"
+],
+[
+"native",
+"image",
+"Native image generation inside a chat model",
+"The chat model itself draws, edits and renders text"
+],
+[
+"vid",
+"video",
+"Public text-to-video",
+"Text-to-video usable by the public"
+],
+[
+"vidaudio",
+"video",
+"Video with native audio",
+"Video generated together with sound"
+],
+[
+"s2s",
+"speech",
+"Real-time speech-to-speech",
+"A model that listens and speaks directly"
+],
+[
+"asr",
+"speech",
+"Robust multilingual speech recognition",
+"General-purpose speech-to-text"
+]
+],
+"items": [
+{
+"id": "meta-20261012-muse-wonder-1-0",
+"date": "2026-10-12",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Wonder 1.0",
+"full": "Muse Wonder 1.0 and Wonder Full: closed models; benchmark claims are mainly Meta's own",
+"src": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"ref": "meta-20261012-muse-wonder-1-0"
+},
+{
+"id": "qwen-20261009-qwen-image-2-1-turbo",
+"date": "2026-10-09",
+"lab": "qwen",
+"mod": [
+"image"
+],
+"fam": "qwenimage",
+"name": "Qwen-Image-2.1-Turbo",
+"full": "Qwen-Image-2.1-Turbo: 8-step 7B image model; weights under the Qwen Research License (secondary sources)",
+"src": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20261007-claude-haiku-5-5",
+"date": "2026-10-07",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Haiku 5.5",
+"full": "Claude Haiku 5.5: small, fast model; details from press coverage of the launch",
+"src": "https://www.anthropic.com/claude/haiku",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0,
+"ref": "anthropic-20261007-claude-haiku-5-5"
+},
+{
+"id": "mistral-20261006-mistral-large-4-preview",
+"date": "2026-10-06",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Large 4 (preview)",
+"full": "Mistral Large 4: public preview on the API; open weights promised by end of October, licence not yet stated",
+"src": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"sec": 1,
+"ref": "mistral-20261006-mistral-large-4-preview"
+},
+{
+"id": "google-20261006-nano-banana-2-1",
+"date": "2026-10-06",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "nanobanana",
+"name": "Nano Banana 2.1",
+"full": "Nano Banana 2.1: image generation and editing, generally available (press sources)",
+"src": "https://www.unite.ai/nano-banana-2-1-debuts-at-half-the-image-cost-of-its-predecessor/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"ref": "google-20261006-nano-banana-2-1"
+},
+{
+"id": "microsoft-20261001-mai-voice-2-1",
+"date": "2026-10-01",
+"lab": "microsoft",
+"mod": [
+"speech"
+],
+"fam": "mai-voice",
+"name": "MAI-Voice-2.1",
+"full": "MAI-Voice-2.1: text-to-speech across 23 languages",
+"src": "https://benchlm.ai/models/mai-voice-2-1",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"ref": "microsoft-20261001-mai-voice-2-1"
+},
+{
+"id": "xai-202610-grok-imagine-video-1-5-lite",
+"date": "2026-10",
+"lab": "xai",
+"mod": [
+"video"
+],
+"fam": "grokimagine",
+"name": "Grok Imagine Video 1.5 Lite",
+"full": "Grok Imagine Video 1.5 Lite: cheaper video model; xAI gave no official date, sources say 1 or 6 October",
+"src": "https://openrouter.ai/x-ai/grok-imagine-video-1.5-lite",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260930-gemini-4-argon",
+"ref": "google-20260930-gemini-4-argon",
+"date": "2026-09-30",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 4 Argon",
+"full": "Gemini 4 Argon: announced 2026-09-30, limited at first to trusted cyber defenders through the Fairwind Program; wider access to follow",
+"src": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"sec": 0
+},
+{
+"id": "openai-20260929-gpt-6-1-sol",
+"ref": "openai-20260929-gpt-6-1-sol",
+"date": "2026-09-29",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-6.1 Sol",
+"full": "GPT-6.1 Sol",
+"src": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "elevenlabs-20260928-eleven-v4",
+"date": "2026-09-28",
+"lab": "elevenlabs",
+"mod": [
+"speech"
+],
+"fam": "eleven",
+"name": "Eleven v4",
+"full": "Eleven v4 and v4 Turbo: 90 languages, with a low-latency variant for voice agents",
+"src": "https://elevenlabs.io/blog/eleven-v4",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "anthropic-20260928-claude-sonnet-5-5",
+"ref": "anthropic-20260928-claude-sonnet-5-5",
+"date": "2026-09-28",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Sonnet 5.5",
+"full": "Claude Sonnet 5.5",
+"src": "https://www.anthropic.com/claude-sonnet-5-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "google-20260923-gemini-3-8-flash-tts",
+"date": "2026-09-23",
+"lab": "google",
+"mod": [
+"speech"
+],
+"fam": "geminitts",
+"name": "Gemini 3.8 Flash TTS",
+"full": "Gemini 3.8 Flash TTS and Flash-Lite TTS (130 / 101 languages)",
+"src": "https://siliconangle.com/2026/09/23/google-launches-two-benchmark-topping-speech-generation-models/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20260922-gpt-6-sol-and-luna",
+"ref": "openai-20260922-gpt-6-sol-and-luna",
+"date": "2026-09-22",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-6 Sol / Luna",
+"src": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-6 Sol and Luna",
+"sec": 0
+},
+{
+"id": "anthropic-20260922-claude-opus-5-5",
+"ref": "anthropic-20260922-claude-opus-5-5",
+"date": "2026-09-22",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 5.5",
+"full": "Claude Opus 5.5",
+"src": "https://www.anthropic.com/claude-opus-5-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "xai-20260921-grok-4-7",
+"ref": "xai-20260921-grok-4-7",
+"date": "2026-09-21",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4.7",
+"full": "Grok 4.7",
+"src": "https://evolink.ai/blog/grok-4-7-release-date",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "qwen-20260921-qwen-image-2-1",
+"date": "2026-09-21",
+"lab": "qwen",
+"mod": [
+"image"
+],
+"fam": "qwenimage",
+"name": "Qwen-Image-2.1",
+"full": "Qwen-Image-2.1: 7B open-weight image generation and editing",
+"src": "https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260915-gemini-3-8-live",
+"date": "2026-09-15",
+"lab": "google",
+"mod": [
+"speech"
+],
+"fam": "geminilive",
+"name": "Gemini 3.8 Live",
+"full": "Gemini 3.8 Live and Live Extended Thinking: real-time voice-to-voice models",
+"src": "https://www.unite.ai/google-launches-gemini-3-8-live-and-extended-thinking-voice-models/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20260910-deepseek-v4-1-flash",
+"ref": "deepseek-20260910-deepseek-v4-1-flash",
+"date": "2026-09-10",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek V4.1 Flash",
+"full": "DeepSeek V4.1 Flash",
+"src": "https://www.activepieces.com/blog/deepseek-v41-flash-launch-whats-new-in-2026",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20260908-gpt-image-2-5",
+"date": "2026-09-08",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "gptimage",
+"name": "GPT Image 2.5",
+"full": "ChatGPT Images 2.5, with two API models",
+"src": "https://datanorth.ai/news/openai-launches-chatgpt-images-2-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20260904-gpt-6-astra",
+"ref": "openai-20260904-gpt-6-astra",
+"date": "2026-09-04",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-6 Astra",
+"src": "https://openai.com/index/gpt-6-astra/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-6 Astra",
+"sec": 0
+},
+{
+"id": "meta-20260902-muse-spark-1-3",
+"ref": "meta-20260902-muse-spark-1-3",
+"date": "2026-09-02",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Spark 1.3",
+"full": "Muse Spark 1.3",
+"src": "https://www.bloomberg.com/news/articles/2026-09-02/meta-releases-more-powerful-ai-model-edging-closer-to-rivals",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260902-gemini-3-8-flash",
+"ref": "google-20260902-gemini-3-8-flash",
+"date": "2026-09-02",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3.8 Flash",
+"full": "Gemini 3.8 Flash",
+"src": "https://emergent.sh/news/google-launches-gemini-3-8-flash-third-flash",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20260901-claude-fable-5-1-and-claude-mythos-5-1",
+"ref": "anthropic-20260901-claude-fable-5-1-and-claude-mythos-5-1",
+"date": "2026-09-01",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Fable 5.1 / Mythos 5.1",
+"full": "Claude Fable 5.1 and Claude Mythos 5.1",
+"src": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "zhipu-20260814-glm-5-3",
+"ref": "zhipu-20260814-glm-5-3",
+"date": "2026-08-14",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-5.3",
+"src": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "GLM-5.3",
+"sec": 0
+},
+{
+"id": "qwen-20260814-qwen3-8-27b",
+"ref": "qwen-20260814-qwen3-8-27b",
+"date": "2026-08-14",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.8-27B",
+"full": "Qwen3.8-27B",
+"src": "https://datanorth.ai/news/alibaba-releases-qwen3-8-27b",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260813-gemini-3-7-flash",
+"ref": "google-20260813-gemini-3-7-flash",
+"date": "2026-08-13",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3.7 Flash",
+"full": "Gemini 3.7 Flash",
+"src": "https://evolink.ai/blog/gemini-3-7-flash-release-date",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20260813-deepseek-v4-pro-0813",
+"ref": "deepseek-20260813-deepseek-v4-pro-0813",
+"date": "2026-08-13",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V4-Pro-0813",
+"full": "DeepSeek-V4-Pro-0813",
+"src": "https://aireleasetracker.com/company/deepseek",
+"flag": 0,
+"open": null,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "xai-20260812-grok-4-6",
+"ref": "xai-20260812-grok-4-6",
+"date": "2026-08-12",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4.6",
+"src": "https://docs.x.ai/developers/release-notes",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Grok 4.6",
+"sec": 0
+},
+{
+"id": "qwen-20260812-qwen3-8-max-open-weights",
+"ref": "qwen-20260812-qwen3-8-max-open-weights",
+"date": "2026-08-12",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.8-Max (open weights)",
+"full": "Qwen3.8-Max open weights",
+"src": "https://www.explainx.ai/blog/qwen3-8-max-open-weights-live-hugging-face-august-2026",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "nvidia-20260811-nemotron-3-5-lightning",
+"ref": "nvidia-20260811-nemotron-3-5-lightning",
+"date": "2026-08-11",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron 3.5 Lightning",
+"full": "Nemotron 3.5 Lightning",
+"src": "https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "meta-20260805-muse-spark-1-2-and-muse-code",
+"ref": "meta-20260805-muse-spark-1-2-and-muse-code",
+"date": "2026-08-05",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Spark 1.2",
+"full": "Muse Spark 1.2 and Muse Code",
+"src": "https://www.developersdigest.tech/blog/meta-muse-code-spark-1-2-release",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "qwen-20260803-qwen3-8-max",
+"ref": "qwen-20260803-qwen3-8-max",
+"date": "2026-08-03",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.8-Max",
+"full": "Qwen3.8-Max",
+"src": "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "minimax-20260731-hailuo-3",
+"date": "2026-07-31",
+"lab": "minimax",
+"mod": [
+"video"
+],
+"fam": "hailuo",
+"name": "Hailuo 3.0 (H3)",
+"full": "Hailuo 3.0 (H3)",
+"src": "https://ocdevel.com/mlg/mla-26",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20260731-deepseek-v4-flash-0731",
+"ref": "deepseek-20260731-deepseek-v4-flash-0731",
+"date": "2026-07-31",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V4-Flash-0731",
+"full": "DeepSeek-V4-Flash-0731",
+"src": "https://aireleasetracker.com/company/deepseek",
+"flag": 0,
+"open": null,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "midjourney-20260724-v8-2",
+"date": "2026-07-24",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V8.2",
+"full": "Midjourney V8.2",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20260724-claude-opus-5",
+"ref": "anthropic-20260724-claude-opus-5",
+"date": "2026-07-24",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 5",
+"src": "https://www.anthropic.com/news/claude-opus-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 5",
+"sec": 0
+},
+{
+"id": "google-20260721-gemini-3-6-flash",
+"ref": "google-20260721-gemini-3-6-flash",
+"date": "2026-07-21",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3.6 Flash",
+"full": "Gemini 3.6 Flash",
+"src": "https://datanorth.ai/news/google-releases-gemini-3-6-flash",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260721-gemini-3-5-flash-lite",
+"ref": "google-20260721-gemini-3-5-flash-lite",
+"date": "2026-07-21",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3.5 Flash-Lite",
+"src": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Gemini 3.5 Flash-Lite",
+"sec": 0
+},
+{
+"id": "moonshot-20260716-kimi-k3",
+"ref": "moonshot-20260716-kimi-k3",
+"date": "2026-07-16",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi K3",
+"src": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Kimi K3",
+"sec": 0
+},
+{
+"id": "meta-20260709-muse-spark-1-1",
+"ref": "meta-20260709-muse-spark-1-1",
+"date": "2026-07-09",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Spark 1.1",
+"src": "https://en.wikipedia.org/wiki/Muse_Spark",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Muse Spark 1.1",
+"sec": 0
+},
+{
+"id": "xai-20260708-grok-4-5",
+"ref": "xai-20260708-grok-4-5",
+"date": "2026-07-08",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4.5",
+"full": "Grok 4.5",
+"src": "https://codersera.com/blog/grok-4-5-launch-guide-2026/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "bytedance-202607-seedance-2-5",
+"date": "2026-07",
+"lab": "bytedance",
+"mod": [
+"video"
+],
+"fam": "seedance",
+"name": "Seedance 2.5",
+"full": "Seedance 2.5",
+"src": "https://en.wikipedia.org/wiki/Seedance",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20260630-claude-sonnet-5",
+"ref": "anthropic-20260630-claude-sonnet-5",
+"date": "2026-06-30",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Sonnet 5",
+"src": "https://www.anthropic.com/news/claude-sonnet-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Sonnet 5",
+"sec": 0
+},
+{
+"id": "zhipu-20260613-glm-5-2",
+"ref": "zhipu-20260613-glm-5-2",
+"date": "2026-06-13",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-5.2",
+"src": "https://en.wikipedia.org/wiki/Z.ai",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "GLM-5.2",
+"sec": 0
+},
+{
+"id": "anthropic-20260609-claude-fable-5-and-claude-mythos-5",
+"ref": "anthropic-20260609-claude-fable-5-and-claude-mythos-5",
+"date": "2026-06-09",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Fable 5 / Mythos 5",
+"src": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Fable 5 and Claude Mythos 5",
+"sec": 0
+},
+{
+"id": "ideogram-20260603-ideogram-4",
+"date": "2026-06-03",
+"lab": "ideogram",
+"mod": [
+"image"
+],
+"fam": "ideogram",
+"name": "Ideogram 4.0",
+"full": "Ideogram 4.0",
+"src": "https://www.provimedia.de/en/blog/ai-image-generation-2026-best-tools",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260603-gemma-4-12b-unified",
+"ref": "google-20260603-gemma-4-12b-unified",
+"date": "2026-06-03",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemma",
+"name": "Gemma 4 12B",
+"full": "Gemma 4 12B Unified",
+"src": "https://www.analyticsvidhya.com/blog/2026/06/google-gemma-4-12b/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "microsoft-20260602-mai-voice-2",
+"date": "2026-06-02",
+"lab": "microsoft",
+"mod": [
+"speech"
+],
+"fam": "mai-voice",
+"name": "MAI-Voice-2",
+"full": "MAI-Voice-2",
+"src": "https://microsoft.ai/news/mai-voice-2/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "qwen-202606-qwen3-7-plus",
+"ref": "qwen-202606-qwen3-7-plus",
+"date": "2026-06",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.7-Plus",
+"full": "Qwen3.7-Plus",
+"src": "https://codersera.com/blog/qwen-3-5-complete-guide-2026/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "microsoft-202606-mai-thinking-1-and-mai-code-1-build-2026",
+"ref": "microsoft-202606-mai-thinking-1-and-mai-code-1-build-2026",
+"date": "2026-06",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "mai",
+"name": "MAI-Thinking-1",
+"src": "https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "MAI-Thinking-1 and MAI-Code-1 (Build 2026)",
+"sec": 0
+},
+{
+"id": "anthropic-20260528-claude-opus-4-8",
+"ref": "anthropic-20260528-claude-opus-4-8",
+"date": "2026-05-28",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 4.8",
+"src": "https://www.anthropic.com/news/claude-opus-4-8",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 4.8",
+"sec": 0
+},
+{
+"id": "google-20260519-gemini-3-5-flash-and-gemini-omni-i-o-2026",
+"ref": "google-20260519-gemini-3-5-flash-and-gemini-omni-i-o-2026",
+"date": "2026-05-19",
+"lab": "google",
+"mod": [
+"llm",
+"video"
+],
+"fam": "gemini",
+"name": "Gemini 3.5 Flash + Omni",
+"src": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 3.5 Flash and Gemini Omni (I/O 2026)",
+"sec": 0
+},
+{
+"id": "openai-20260507-gpt-realtime-2",
+"date": "2026-05-07",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "realtime",
+"name": "gpt-realtime-2",
+"full": "GPT-Realtime-2: speech-to-speech with GPT-5-class reasoning, per secondary report",
+"src": "https://handyai.substack.com/p/model-drop-gpt-realtime-2",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20260505-gpt-5-5-instant",
+"ref": "openai-20260505-gpt-5-5-instant",
+"date": "2026-05-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.5 Instant",
+"src": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.5 Instant",
+"sec": 0
+},
+{
+"id": "qwen-202605-qwen3-7-max",
+"ref": "qwen-202605-qwen3-7-max",
+"date": "2026-05",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.7-Max",
+"full": "Qwen3.7-Max",
+"src": "https://codersera.com/blog/qwen-3-5-complete-guide-2026/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "mistral-20260428-mistral-medium-3-5",
+"ref": "mistral-20260428-mistral-medium-3-5",
+"date": "2026-04-28",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Medium 3.5",
+"src": "https://en.wikipedia.org/wiki/Mistral_AI",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Mistral Medium 3.5",
+"sec": 0
+},
+{
+"id": "deepseek-20260424-deepseek-v4",
+"ref": "deepseek-20260424-deepseek-v4",
+"date": "2026-04-24",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V4",
+"src": "https://api-docs.deepseek.com/updates/",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "DeepSeek-V4",
+"sec": 0
+},
+{
+"id": "openai-20260423-gpt-5-5",
+"ref": "openai-20260423-gpt-5-5",
+"date": "2026-04-23",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.5",
+"src": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.5",
+"sec": 0
+},
+{
+"id": "openai-20260421-gpt-image-2",
+"date": "2026-04-21",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "gptimage",
+"name": "gpt-image-2",
+"full": "gpt-image-2 in the API and Codex (ChatGPT Images 2.0 followed on 2026-04-22)",
+"src": "https://community.openai.com/t/introducing-gpt-image-2-available-today-in-the-api-and-codex/1379479",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "anthropic-20260416-claude-opus-4-7",
+"ref": "anthropic-20260416-claude-opus-4-7",
+"date": "2026-04-16",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 4.7",
+"src": "https://www.anthropic.com/news/claude-opus-4-7",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 4.7",
+"sec": 0
+},
+{
+"id": "meta-20260408-muse-spark",
+"ref": "meta-20260408-muse-spark",
+"date": "2026-04-08",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Spark",
+"src": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Muse Spark",
+"sec": 0
+},
+{
+"id": "anthropic-20260407-claude-mythos-preview-and-project-glasswing",
+"ref": "anthropic-20260407-claude-mythos-preview-and-project-glasswing",
+"date": "2026-04-07",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Mythos Preview",
+"src": "https://www.anthropic.com/project/glasswing",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"full": "Claude Mythos Preview and Project Glasswing",
+"sec": 0
+},
+{
+"id": "google-20260402-gemma-4",
+"ref": "google-20260402-gemma-4",
+"date": "2026-04-02",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemma",
+"name": "Gemma 4",
+"full": "Gemma 4",
+"src": "https://en.wikipedia.org/wiki/Gemma_(language_model)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "qwen-202604-wan-2-7",
+"date": "2026-04",
+"lab": "qwen",
+"mod": [
+"video"
+],
+"fam": "wan",
+"name": "Wan 2.7",
+"full": "Wan 2.7: Apache 2.0, with native audio per secondary reports",
+"src": "https://ocdevel.com/mlg/mla-26",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"t": "vidaudio"
+},
+{
+"id": "qwen-202604-qwen3-6",
+"ref": "qwen-202604-qwen3-6",
+"date": "2026-04",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.6",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Qwen3.6",
+"sec": 0
+},
+{
+"id": "midjourney-202604-v8-1",
+"date": "2026-04",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V8.1 (alpha)",
+"full": "Midjourney V8.1: alpha in April 2026, default from June 2026",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20260317-gpt-5-4-mini-and-nano",
+"ref": "openai-20260317-gpt-5-4-mini-and-nano",
+"date": "2026-03-17",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.4 mini",
+"src": "https://en.wikipedia.org/wiki/GPT-5.4",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.4 mini and nano",
+"sec": 0
+},
+{
+"id": "midjourney-20260317-v8-alpha",
+"date": "2026-03-17",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V8 (alpha)",
+"full": "Midjourney V8 (alpha)",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "mistral-20260316-mistral-small-4",
+"ref": "mistral-20260316-mistral-small-4",
+"date": "2026-03-16",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Small 4",
+"src": "https://en.wikipedia.org/wiki/Mistral_AI",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Mistral Small 4",
+"sec": 0
+},
+{
+"id": "openai-20260305-gpt-5-4",
+"ref": "openai-20260305-gpt-5-4",
+"date": "2026-03-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.4",
+"src": "https://en.wikipedia.org/wiki/GPT-5.4",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.4",
+"sec": 0
+},
+{
+"id": "xai-202603-grok-4-20",
+"ref": "xai-202603-grok-4-20",
+"date": "2026-03",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4.20",
+"src": "https://grok.com/release-notes",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Grok 4.20",
+"sec": 0
+},
+{
+"id": "nvidia-202603-nemotron-3-family-gtc-2026",
+"ref": "nvidia-202603-nemotron-3-family-gtc-2026",
+"date": "2026-03",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron 3 family",
+"src": "https://blog.buildfastwithai.com/nvidia-ai-models-2026-guide",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Nemotron 3 family (GTC 2026)",
+"sec": 0
+},
+{
+"id": "mistral-20260326-voxtral-tts",
+"date": "2026-03",
+"lab": "mistral",
+"mod": [
+"speech"
+],
+"fam": "voxtral",
+"name": "Voxtral TTS",
+"full": "Mistral Voxtral TTS, open source (sources differ on the day, 23 or 26 March)",
+"src": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20260226-nano-banana-2",
+"ref": "google-20260226-nano-banana-2",
+"date": "2026-02-26",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "nanobanana",
+"name": "Nano Banana 2",
+"src": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Nano Banana 2",
+"sec": 0
+},
+{
+"id": "google-20260219-gemini-3-1-pro",
+"ref": "google-20260219-gemini-3-1-pro",
+"date": "2026-02-19",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3.1 Pro",
+"src": "https://techinformed.com/google-rolls-out-gemini-3-1-pro-preview/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 3.1 Pro",
+"sec": 0
+},
+{
+"id": "qwen-20260217-qwen3-5",
+"ref": "qwen-20260217-qwen3-5",
+"date": "2026-02-17",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3.5",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "Qwen3.5",
+"sec": 0
+},
+{
+"id": "anthropic-20260217-claude-sonnet-4-6",
+"ref": "anthropic-20260217-claude-sonnet-4-6",
+"date": "2026-02-17",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Sonnet 4.6",
+"src": "https://www.anthropic.com/news/claude-sonnet-4-6",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Claude Sonnet 4.6",
+"sec": 0
+},
+{
+"id": "bytedance-20260212-seedance-2-0",
+"date": "2026-02-12",
+"lab": "bytedance",
+"mod": [
+"video"
+],
+"fam": "seedance",
+"name": "Seedance 2.0",
+"full": "Seedance 2.0",
+"src": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "zhipu-20260211-glm-5",
+"ref": "zhipu-20260211-glm-5",
+"date": "2026-02-11",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-5",
+"src": "https://huggingface.co/blog/mlabonne/glm-5",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "GLM-5",
+"sec": 0
+},
+{
+"id": "openai-20260205-gpt-5-3-codex",
+"ref": "openai-20260205-gpt-5-3-codex",
+"date": "2026-02-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.3-Codex",
+"src": "https://en.wikipedia.org/wiki/GPT-5.3-Codex",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.3-Codex",
+"sec": 0
+},
+{
+"id": "kuaishou-20260205-kling-3-0",
+"date": "2026-02-05",
+"lab": "kuaishou",
+"mod": [
+"video"
+],
+"fam": "kling",
+"name": "Kling 3.0",
+"full": "Kling 3.0 (announced 2026-01-31, launched 2026-02-05)",
+"src": "https://en.wikipedia.org/wiki/Kling_AI",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20260205-claude-opus-4-6",
+"ref": "anthropic-20260205-claude-opus-4-6",
+"date": "2026-02-05",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 4.6",
+"src": "https://www.anthropic.com/news/claude-opus-4-6",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 4.6",
+"sec": 0
+},
+{
+"id": "luma-20260126-ray3-14",
+"date": "2026-01-26",
+"lab": "luma",
+"mod": [
+"video"
+],
+"fam": "ray",
+"name": "Ray3.14",
+"full": "Ray3.14",
+"src": "https://ray3.co/ray314",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "qwen-20260122-qwen3-tts",
+"date": "2026-01-22",
+"lab": "qwen",
+"mod": [
+"speech"
+],
+"fam": "qwentts",
+"name": "Qwen3-TTS",
+"full": "Qwen3-TTS",
+"src": "https://pinggy.io/blog/best_open_source_self_hosted_text_to_speech_models/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "bfl-20260115-flux-2-klein",
+"date": "2026-01-15",
+"lab": "bfl",
+"mod": [
+"image"
+],
+"fam": "flux",
+"name": "FLUX.2 [klein]",
+"full": "FLUX.2 [klein]",
+"src": "https://www.provimedia.de/en/blog/ai-image-generation-2026-best-tools",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "nvidia-202601-personaplex",
+"date": "2026-01",
+"lab": "nvidia",
+"mod": [
+"speech"
+],
+"fam": "personaplex",
+"name": "PersonaPlex-7B",
+"full": "PersonaPlex-7B",
+"src": "https://pinggy.io/blog/best_open_source_self_hosted_text_to_speech_models/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "moonshot-202601-kimi-k2-5",
+"ref": "moonshot-202601-kimi-k2-5",
+"date": "2026-01",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi K2.5",
+"src": "https://en.wikipedia.org/wiki/Kimi_(chatbot)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Kimi K2.5",
+"sec": 0
+},
+{
+"id": "bytedance-20251223-seedream-4-5",
+"date": "2025-12-23",
+"lab": "bytedance",
+"mod": [
+"image"
+],
+"fam": "seedream",
+"name": "Seedream 4.5",
+"full": "Seedream 4.5",
+"src": "https://openrouter.ai/bytedance-seed/seedream-4.5",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20251217-gemini-3-flash",
+"ref": "google-20251217-gemini-3-flash",
+"date": "2025-12-17",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3 Flash",
+"src": "https://ai.google.dev/gemini-api/docs/changelog",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Gemini 3 Flash",
+"sec": 0
+},
+{
+"id": "openai-20251211-gpt-5-2",
+"ref": "openai-20251211-gpt-5-2",
+"date": "2025-12-11",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.2",
+"src": "https://en.wikipedia.org/wiki/GPT-5.2",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.2",
+"sec": 0
+},
+{
+"id": "mistral-20251209-devstral-2-and-mistral-vibe",
+"ref": "mistral-20251209-devstral-2-and-mistral-vibe",
+"date": "2025-12-09",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Devstral 2",
+"src": "https://en.wikipedia.org/wiki/Mistral_AI",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Devstral 2 and Mistral Vibe",
+"sec": 0
+},
+{
+"id": "mistral-20251202-mistral-3-large-3-and-ministral-3",
+"ref": "mistral-20251202-mistral-3-large-3-and-ministral-3",
+"date": "2025-12-02",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral 3",
+"src": "https://techcrunch.com/2025/12/02/mistral-closes-in-on-big-ai-rivals-with-mistral-3-open-weight-frontier-and-small-models/",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "Mistral 3: Large 3 and Ministral 3",
+"sec": 0
+},
+{
+"id": "amazon-20251202-nova-2-family-and-nova-forge-re-invent-2025",
+"ref": "amazon-20251202-nova-2-family-and-nova-forge-re-invent-2025",
+"date": "2025-12-02",
+"lab": "amazon",
+"mod": [
+"llm"
+],
+"fam": "nova",
+"name": "Nova 2 family",
+"src": "https://techcrunch.com/2025/12/02/aws-launches-new-nova-ai-models-and-a-service-that-gives-customers-more-control/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Nova 2 family and Nova Forge (re:Invent 2025)",
+"sec": 0
+},
+{
+"id": "runway-20251201-gen-4-5",
+"date": "2025-12-01",
+"lab": "runway",
+"mod": [
+"video"
+],
+"fam": "gen4",
+"name": "Gen-4.5",
+"full": "Gen-4.5 (API access followed in February 2026)",
+"src": "https://ocdevel.com/mlg/mla-26",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20251201-deepseek-v3-2-and-v3-2-speciale",
+"ref": "deepseek-20251201-deepseek-v3-2-and-v3-2-speciale",
+"date": "2025-12-01",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V3.2",
+"src": "https://api-docs.deepseek.com/updates/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "DeepSeek-V3.2 and V3.2-Speciale",
+"sec": 0
+},
+{
+"id": "bytedance-202512-seedance-1-5-pro",
+"date": "2025-12",
+"lab": "bytedance",
+"mod": [
+"video"
+],
+"fam": "seedance",
+"name": "Seedance 1.5 Pro",
+"full": "Seedance 1.5 Pro",
+"src": "https://en.wikipedia.org/wiki/Seedance",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "bfl-20251125-flux-2",
+"date": "2025-11-25",
+"lab": "bfl",
+"mod": [
+"image"
+],
+"fam": "flux",
+"name": "FLUX.2",
+"full": "FLUX.2",
+"src": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+"flag": 1,
+"open": null,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20251124-claude-opus-4-5",
+"ref": "anthropic-20251124-claude-opus-4-5",
+"date": "2025-11-24",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 4.5",
+"src": "https://www.anthropic.com/news/claude-opus-4-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 4.5",
+"sec": 0
+},
+{
+"id": "google-20251120-nano-banana-pro-gemini-3-pro-image",
+"ref": "google-20251120-nano-banana-pro-gemini-3-pro-image",
+"date": "2025-11-20",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "nanobanana",
+"name": "Nano Banana Pro",
+"src": "https://ai.google.dev/gemini-api/docs/changelog",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Nano Banana Pro (Gemini 3 Pro Image)",
+"sec": 0
+},
+{
+"id": "openai-20251119-gpt-5-1-codex-max",
+"ref": "openai-20251119-gpt-5-1-codex-max",
+"date": "2025-11-19",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.1-Codex-Max",
+"src": "https://openai.com/index/gpt-5-1-codex-max/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.1-Codex-Max",
+"sec": 0
+},
+{
+"id": "google-20251118-gemini-3-pro",
+"ref": "google-20251118-gemini-3-pro",
+"date": "2025-11-18",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 3 Pro",
+"src": "https://www.constellationr.com/blog-news/insights/google-launches-gemini-3-google-antigravity-generative-ui-features",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 3 Pro",
+"sec": 0
+},
+{
+"id": "xai-20251117-grok-4-1",
+"ref": "xai-20251117-grok-4-1",
+"date": "2025-11-17",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4.1",
+"src": "https://x.ai/news/grok-4-1",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Grok 4.1",
+"sec": 0
+},
+{
+"id": "openai-20251112-gpt-5-1",
+"ref": "openai-20251112-gpt-5-1",
+"date": "2025-11-12",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5.1",
+"src": "https://openai.com/index/gpt-5-1/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "GPT-5.1",
+"sec": 0
+},
+{
+"id": "moonshot-20251106-kimi-k2-thinking",
+"ref": "moonshot-20251106-kimi-k2-thinking",
+"date": "2025-11-06",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi K2 Thinking",
+"src": "https://www.cnbc.com/2025/11/06/alibaba-backed-moonshot-releases-new-ai-model-kimi-k2-thinking.html",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Kimi K2 Thinking",
+"sec": 0
+},
+{
+"id": "google-20251015-veo-3-1",
+"ref": "google-20251015-veo-3-1",
+"date": "2025-10-15",
+"lab": "google",
+"mod": [
+"video"
+],
+"fam": "veo",
+"name": "Veo 3.1",
+"src": "https://ai.google.dev/gemini-api/docs/changelog",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Veo 3.1",
+"sec": 0
+},
+{
+"id": "anthropic-20251015-claude-haiku-4-5",
+"ref": "anthropic-20251015-claude-haiku-4-5",
+"date": "2025-10-15",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Haiku 4.5",
+"src": "https://www.anthropic.com/news/claude-haiku-4-5",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Claude Haiku 4.5",
+"sec": 0
+},
+{
+"id": "microsoft-20251013-mai-image-1",
+"ref": "microsoft-20251013-mai-image-1",
+"date": "2025-10-13",
+"lab": "microsoft",
+"mod": [
+"image"
+],
+"fam": "mai-image",
+"name": "MAI-Image-1",
+"src": "https://en.wikipedia.org/wiki/Microsoft_AI",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "MAI-Image-1",
+"sec": 0
+},
+{
+"id": "openai-20250930-sora-2-and-the-sora-app",
+"ref": "openai-20250930-sora-2-and-the-sora-app",
+"date": "2025-09-30",
+"lab": "openai",
+"mod": [
+"video"
+],
+"fam": "sora",
+"name": "Sora 2",
+"src": "https://openai.com/index/sora-2/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Sora 2 and the Sora app (app and web shut down 2026-04-26; API removal scheduled 2026-09-24)",
+"sec": 0,
+"end": "2026-04-26"
+},
+{
+"id": "deepseek-20250929-deepseek-v3-2-exp",
+"ref": "deepseek-20250929-deepseek-v3-2-exp",
+"date": "2025-09-29",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V3.2-Exp",
+"full": "DeepSeek-V3.2-Exp",
+"src": "https://api-docs.deepseek.com/news/news250929/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "anthropic-20250929-claude-sonnet-4-5",
+"ref": "anthropic-20250929-claude-sonnet-4-5",
+"date": "2025-09-29",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Sonnet 4.5",
+"src": "https://www.anthropic.com/news/claude-sonnet-4-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude Sonnet 4.5",
+"sec": 0
+},
+{
+"id": "qwen-20250924-qwen3-max",
+"ref": "qwen-20250924-qwen3-max",
+"date": "2025-09-24",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3-Max",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "Qwen3-Max",
+"sec": 0
+},
+{
+"id": "xai-20250919-grok-4-fast",
+"ref": "xai-20250919-grok-4-fast",
+"date": "2025-09-19",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4 Fast",
+"full": "Grok 4 Fast",
+"src": "https://simonwillison.net/2025/Sep/20/grok-4-fast/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "luma-20250918-ray3",
+"date": "2025-09-18",
+"lab": "luma",
+"mod": [
+"video"
+],
+"fam": "ray",
+"name": "Ray3",
+"full": "Ray3: described by Luma as a reasoning video model with 16-bit HDR",
+"src": "https://lumalabs.ai/news/ray3",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "zhipu-202509-glm-4-6",
+"ref": "zhipu-202509-glm-4-6",
+"date": "2025-09",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-4.6",
+"src": "https://en.wikipedia.org/wiki/Z.ai",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "GLM-4.6",
+"sec": 0
+},
+{
+"id": "qwen-202509-qwen3-omni",
+"date": "2025-09",
+"lab": "qwen",
+"mod": [
+"speech",
+"llm"
+],
+"fam": "qwen-omni",
+"name": "Qwen3-Omni",
+"full": "Qwen3-Omni: open omni-modal model taking text, image, audio and video, with real-time speech output (Apache 2.0)",
+"src": "https://arxiv.org/abs/2509.17765",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "qwen-202509-qwen3-next",
+"ref": "qwen-202509-qwen3-next",
+"date": "2025-09",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3-Next",
+"full": "Qwen3-Next",
+"src": "https://www.alibabacloud.com/blog/602536",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-202509-gpt-5-codex",
+"ref": "openai-202509-gpt-5-codex",
+"date": "2025-09",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5-Codex",
+"full": "GPT-5-Codex",
+"src": "https://help.openai.com/en/articles/9624314-model-release-notes",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-20250828-gpt-realtime-and-realtime-api-ga",
+"ref": "openai-20250828-gpt-realtime-and-realtime-api-ga",
+"date": "2025-08-28",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "realtime",
+"name": "gpt-realtime",
+"src": "https://openai.com/index/introducing-gpt-realtime/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "gpt-realtime and Realtime API GA",
+"sec": 0
+},
+{
+"id": "microsoft-20250828-mai-1-preview-and-mai-voice-1",
+"ref": "microsoft-20250828-mai-1-preview-and-mai-voice-1",
+"date": "2025-08-28",
+"lab": "microsoft",
+"mod": [
+"llm",
+"speech"
+],
+"fam": "mai",
+"name": "MAI-1-preview + MAI-Voice-1",
+"src": "https://en.wikipedia.org/wiki/Microsoft_AI",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"full": "MAI-1-preview and MAI-Voice-1",
+"sec": 0
+},
+{
+"id": "google-20250826-nano-banana-gemini-2-5-flash-image",
+"ref": "google-20250826-nano-banana-gemini-2-5-flash-image",
+"date": "2025-08-26",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "nanobanana",
+"name": "Nano Banana",
+"src": "https://en.wikipedia.org/wiki/Nano_Banana",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Nano Banana (Gemini 2.5 Flash Image)",
+"sec": 0
+},
+{
+"id": "xai-20250824-grok-2-5-open-sourced",
+"ref": "xai-20250824-grok-2-5-open-sourced",
+"date": "2025-08-24",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 2.5 open-sourced",
+"src": "https://techcrunch.com/2025/08/24/elon-musk-says-xai-has-open-sourced-grok-2-5/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Grok 2.5 open-sourced",
+"sec": 0
+},
+{
+"id": "deepseek-20250821-deepseek-v3-1",
+"ref": "deepseek-20250821-deepseek-v3-1",
+"date": "2025-08-21",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V3.1",
+"src": "https://api-docs.deepseek.com/news/news250821/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "DeepSeek-V3.1",
+"sec": 0
+},
+{
+"id": "openai-20250807-gpt-5",
+"ref": "openai-20250807-gpt-5",
+"date": "2025-08-07",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-5",
+"src": "https://en.wikipedia.org/wiki/GPT-5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-5",
+"sec": 0
+},
+{
+"id": "openai-20250805-gpt-oss-120b-and-gpt-oss-20b",
+"ref": "openai-20250805-gpt-oss-120b-and-gpt-oss-20b",
+"date": "2025-08-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gptoss",
+"name": "gpt-oss",
+"src": "https://openai.com/index/introducing-gpt-oss/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "gpt-oss-120b and gpt-oss-20b",
+"sec": 0
+},
+{
+"id": "anthropic-20250805-claude-opus-4-1",
+"ref": "anthropic-20250805-claude-opus-4-1",
+"date": "2025-08-05",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude Opus 4.1",
+"src": "https://www.anthropic.com/news/claude-opus-4-1",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Claude Opus 4.1",
+"sec": 0
+},
+{
+"id": "xai-202508-grok-imagine",
+"ref": "xai-202508-grok-imagine",
+"date": "2025-08",
+"lab": "xai",
+"mod": [
+"image",
+"video"
+],
+"fam": "grokimagine",
+"name": "Grok Imagine",
+"src": "https://grok.com/release-notes",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Grok Imagine",
+"sec": 0
+},
+{
+"id": "qwen-202508-qwen-image",
+"date": "2025-08",
+"lab": "qwen",
+"mod": [
+"image"
+],
+"fam": "qwenimage",
+"name": "Qwen-Image",
+"full": "Qwen-Image: 20B, Apache 2.0",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "zhipu-20250728-glm-4-5",
+"ref": "zhipu-20250728-glm-4-5",
+"date": "2025-07-28",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-4.5",
+"src": "https://www.marktechpost.com/2025/07/28/zhipu-ai-just-released-glm-4-5-series-redefining-open-source-agentic-ai-with-hybrid-reasoning/",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "GLM-4.5",
+"sec": 0
+},
+{
+"id": "qwen-20250722-qwen3-coder",
+"ref": "qwen-20250722-qwen3-coder",
+"date": "2025-07-22",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3-Coder",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Qwen3-Coder",
+"sec": 0
+},
+{
+"id": "mistral-20250715-voxtral",
+"date": "2025-07-15",
+"lab": "mistral",
+"mod": [
+"speech"
+],
+"fam": "voxtral-stt",
+"name": "Voxtral",
+"full": "Voxtral 24B and 3B: open speech-understanding models under Apache 2.0",
+"src": "https://simonwillison.net/2025/Jul/16/voxtral/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "moonshot-20250711-kimi-k2",
+"ref": "moonshot-20250711-kimi-k2",
+"date": "2025-07-11",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi K2",
+"src": "https://www.hpcwire.com/2025/07/16/chinas-moonshot-ai-releases-trillion-parameter-model-kimi-k2/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Kimi K2",
+"sec": 0
+},
+{
+"id": "xai-20250709-grok-4-and-grok-4-heavy",
+"ref": "xai-20250709-grok-4-and-grok-4-heavy",
+"date": "2025-07-09",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 4",
+"src": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Grok 4 and Grok 4 Heavy",
+"sec": 0
+},
+{
+"id": "minimax-20250618-hailuo-02",
+"date": "2025-06-18",
+"lab": "minimax",
+"mod": [
+"video"
+],
+"fam": "hailuo",
+"name": "Hailuo 02",
+"full": "Hailuo 02",
+"src": "https://www.aibase.com/news/19068",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "midjourney-20250618-video-v1",
+"date": "2025-06-18",
+"lab": "midjourney",
+"mod": [
+"video"
+],
+"fam": "mjvideo",
+"name": "Midjourney Video V1",
+"full": "Midjourney Video V1",
+"src": "https://venturebeat.com/business/surpassing-all-my-expectations-midjourney-releases-first-ai-video-model-amid-disney-universal-lawsuit",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20250617-gemini-2-5-flash",
+"ref": "google-20250617-gemini-2-5-flash",
+"date": "2025-06-17",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 2.5 Flash",
+"full": "Gemini 2.5 Flash",
+"src": "https://en.wikipedia.org/wiki/Google_Gemini",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20250610-o3-pro",
+"ref": "openai-20250610-o3-pro",
+"date": "2025-06-10",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "o3-pro",
+"full": "o3-pro",
+"src": "https://help.openai.com/en/articles/9624314-model-release-notes",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "mistral-20250610-magistral",
+"ref": "mistral-20250610-magistral",
+"date": "2025-06-10",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Magistral",
+"src": "https://en.wikipedia.org/wiki/Mistral_AI",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Magistral",
+"sec": 0
+},
+{
+"id": "elevenlabs-20250603-eleven-v3",
+"date": "2025-06-03",
+"lab": "elevenlabs",
+"mod": [
+"speech"
+],
+"fam": "eleven",
+"name": "Eleven v3 (alpha)",
+"full": "Eleven v3 alpha; generally available 2026-02-02 per secondary reports",
+"src": "https://elevenlabs.io/blog/eleven-v3",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"sec": 0
+},
+{
+"id": "bytedance-202506-seedance-1-0",
+"date": "2025-06",
+"lab": "bytedance",
+"mod": [
+"video"
+],
+"fam": "seedance",
+"name": "Seedance 1.0",
+"full": "Seedance 1.0",
+"src": "https://en.wikipedia.org/wiki/Seedance",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "bfl-20250529-flux-1-kontext",
+"date": "2025-05-29",
+"lab": "bfl",
+"mod": [
+"image"
+],
+"fam": "flux",
+"name": "FLUX.1 Kontext",
+"full": "FLUX.1 Kontext [pro] and [max]: in-context image generation and editing",
+"src": "https://comfyui-wiki.com/en/news/2025-05-30-flux-kontext-release",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20250528-deepseek-r1-0528",
+"ref": "deepseek-20250528-deepseek-r1-0528",
+"date": "2025-05-28",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-R1-0528",
+"src": "https://api-docs.deepseek.com/updates/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "DeepSeek-R1-0528",
+"sec": 0
+},
+{
+"id": "anthropic-20250522-claude-4-opus-4-and-sonnet-4",
+"ref": "anthropic-20250522-claude-4-opus-4-and-sonnet-4",
+"date": "2025-05-22",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 4",
+"src": "https://www.anthropic.com/news/claude-4",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 4: Opus 4 and Sonnet 4",
+"sec": 0
+},
+{
+"id": "google-20250520-veo-3-imagen-4-and-flow-i-o-2025",
+"ref": "google-20250520-veo-3-imagen-4-and-flow-i-o-2025",
+"date": "2025-05-20",
+"lab": "google",
+"mod": [
+"video",
+"image"
+],
+"fam": "veo",
+"name": "Veo 3 + Imagen 4",
+"src": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Veo 3, Imagen 4 and Flow (I/O 2025)",
+"sec": 0,
+"t": "vidaudio"
+},
+{
+"id": "mistral-20250507-mistral-medium-3",
+"ref": "mistral-20250507-mistral-medium-3",
+"date": "2025-05-07",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Medium 3",
+"src": "https://mistral.ai/news/mistral-medium-3/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Mistral Medium 3",
+"sec": 0
+},
+{
+"id": "qwen-20250429-qwen3",
+"ref": "qwen-20250429-qwen3",
+"date": "2025-04-29",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen3",
+"src": "https://github.com/QwenLM/Qwen3",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Qwen3",
+"sec": 0
+},
+{
+"id": "openai-20250423-gpt-image-1",
+"date": "2025-04-23",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "gptimage",
+"name": "gpt-image-1",
+"full": "gpt-image-1 in the API",
+"src": "https://openai.com/index/image-generation-api/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-20250416-o3-and-o4-mini",
+"ref": "openai-20250416-o3-and-o4-mini",
+"date": "2025-04-16",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "o3",
+"src": "https://en.wikipedia.org/wiki/OpenAI_o3",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "o3 and o4-mini",
+"sec": 0
+},
+{
+"id": "openai-20250414-gpt-4-1-gpt-4-1-mini-and-gpt-4-1-nano",
+"ref": "openai-20250414-gpt-4-1-gpt-4-1-mini-and-gpt-4-1-nano",
+"date": "2025-04-14",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-4.1",
+"full": "GPT-4.1, GPT-4.1 mini and GPT-4.1 nano",
+"src": "https://en.wikipedia.org/wiki/GPT-4.1",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "amazon-20250408-nova-sonic",
+"date": "2025-04-08",
+"lab": "amazon",
+"mod": [
+"speech"
+],
+"fam": "novasonic",
+"name": "Nova Sonic",
+"full": "Nova Sonic: speech understanding and generation in one real-time model on Bedrock",
+"src": "https://techcrunch.com/2025/04/08/amazon-unveils-a-new-ai-voice-model-nova-sonic/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "meta-20250405-llama-4-scout-and-maverick",
+"ref": "meta-20250405-llama-4-scout-and-maverick",
+"date": "2025-04-05",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 4",
+"src": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Llama 4 Scout and Maverick",
+"sec": 0
+},
+{
+"id": "midjourney-20250404-v7-alpha",
+"date": "2025-04-04",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V7 (alpha)",
+"full": "Midjourney V7 (alpha)",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "microsoft-202504-phi-4-reasoning",
+"ref": "microsoft-202504-phi-4-reasoning",
+"date": "2025-04",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "phi",
+"name": "Phi-4-reasoning",
+"src": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Phi-4-reasoning",
+"sec": 0
+},
+{
+"id": "kuaishou-202504-kling-2-0",
+"date": "2025-04",
+"lab": "kuaishou",
+"mod": [
+"video"
+],
+"fam": "kling",
+"name": "Kling 2.0",
+"full": "Kling 2.0",
+"src": "https://en.wikipedia.org/wiki/Kling_AI",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "amazon-202504-nova-premier",
+"ref": "amazon-202504-nova-premier",
+"date": "2025-04",
+"lab": "amazon",
+"mod": [
+"llm"
+],
+"fam": "nova",
+"name": "Nova Premier",
+"src": "https://aws.amazon.com/blogs/aws/amazon-nova-premier-our-most-capable-model-for-complex-tasks-and-teacher-for-model-distillation/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Nova Premier",
+"sec": 0
+},
+{
+"id": "runway-20250331-gen-4",
+"date": "2025-03-31",
+"lab": "runway",
+"mod": [
+"video"
+],
+"fam": "gen4",
+"name": "Gen-4",
+"full": "Gen-4",
+"src": "https://techcrunch.com/2025/03/31/runway-releases-an-impressive-new-video-generating-ai-model/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "openai-20250325-4o-image-generation-in-chatgpt",
+"ref": "openai-20250325-4o-image-generation-in-chatgpt",
+"date": "2025-03-25",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "gptimage",
+"name": "4o image generation",
+"src": "https://openai.com/index/introducing-4o-image-generation/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "4o image generation in ChatGPT",
+"sec": 0,
+"t": "native"
+},
+{
+"id": "google-20250325-gemini-2-5-pro",
+"ref": "google-20250325-gemini-2-5-pro",
+"date": "2025-03-25",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 2.5 Pro",
+"src": "https://hidekazu-konishi.com/entry/google_gemini_model_release_timeline.html",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 2.5 Pro",
+"sec": 0
+},
+{
+"id": "openai-20250320-gpt-4o-transcribe",
+"date": "2025-03-20",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "otts",
+"name": "gpt-4o-transcribe and mini-tts",
+"full": "gpt-4o-transcribe, gpt-4o-mini-transcribe and gpt-4o-mini-tts in the API",
+"src": "https://openai.com/index/introducing-our-next-generation-audio-models/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "sesame-20250313-csm-1b",
+"date": "2025-03-13",
+"lab": "sesame",
+"mod": [
+"speech"
+],
+"fam": "csm",
+"name": "CSM-1B",
+"full": "Sesame CSM-1B, Apache 2.0",
+"src": "https://the-decoder.com/sesame-releases-csm-1b-ai-voice-generator-as-open-source/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-20250312-gemma-3-open-models",
+"ref": "google-20250312-gemma-3-open-models",
+"date": "2025-03-12",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemma",
+"name": "Gemma 3",
+"src": "https://developers.googleblog.com/en/introducing-gemma3/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Gemma 3 (open models)",
+"sec": 0
+},
+{
+"id": "qwen-202503-qwq-32b",
+"ref": "qwen-202503-qwq-32b",
+"date": "2025-03",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "QwQ-32B",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "QwQ-32B",
+"sec": 0
+},
+{
+"id": "openai-20250227-gpt-4-5",
+"ref": "openai-20250227-gpt-4-5",
+"date": "2025-02-27",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-4.5",
+"src": "https://en.wikipedia.org/wiki/GPT-4.5",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-4.5",
+"sec": 0
+},
+{
+"id": "qwen-20250225-wan-2-1",
+"date": "2025-02-25",
+"lab": "qwen",
+"mod": [
+"video"
+],
+"fam": "wan",
+"name": "Wan 2.1",
+"full": "Wan 2.1",
+"src": "https://petapixel.com/2025/02/26/alibaba-makes-ai-video-generator-wan-2-1-free-to-use/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20250224-claude-3-7-sonnet-and-claude-code",
+"ref": "anthropic-20250224-claude-3-7-sonnet-and-claude-code",
+"date": "2025-02-24",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 3.7 Sonnet",
+"src": "https://www.anthropic.com/news/claude-3-7-sonnet",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 3.7 Sonnet and Claude Code",
+"sec": 0
+},
+{
+"id": "xai-20250217-grok-3",
+"ref": "xai-20250217-grok-3",
+"date": "2025-02-17",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok 3",
+"src": "https://techcrunch.com/2025/02/17/elon-musks-ai-company-xai-releases-its-latest-flagship-ai-grok-3/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Grok 3",
+"sec": 0
+},
+{
+"id": "openai-20250131-o3-mini",
+"ref": "openai-20250131-o3-mini",
+"date": "2025-01-31",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "o3-mini",
+"src": "https://openai.com/index/openai-o3-mini/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "o3-mini",
+"sec": 0
+},
+{
+"id": "mistral-20250130-mistral-small-3",
+"ref": "mistral-20250130-mistral-small-3",
+"date": "2025-01-30",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Small 3",
+"src": "https://mistral.ai/news/mistral-small-3/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Mistral Small 3",
+"sec": 0
+},
+{
+"id": "qwen-20250129-qwen2-5-max",
+"ref": "qwen-20250129-qwen2-5-max",
+"date": "2025-01-29",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen2.5-Max",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Qwen2.5-Max",
+"sec": 0
+},
+{
+"id": "qwen-20250126-qwen2-5-vl",
+"ref": "qwen-20250126-qwen2-5-vl",
+"date": "2025-01-26",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen2.5-VL",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Qwen2.5-VL",
+"sec": 0
+},
+{
+"id": "moonshot-20250120-kimi-k1-5",
+"ref": "moonshot-20250120-kimi-k1-5",
+"date": "2025-01-20",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi k1.5",
+"src": "https://arxiv.org/abs/2501.12599",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Kimi k1.5",
+"sec": 0
+},
+{
+"id": "deepseek-20250120-deepseek-r1",
+"ref": "deepseek-20250120-deepseek-r1",
+"date": "2025-01-20",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-R1",
+"src": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "DeepSeek-R1",
+"sec": 0,
+"t": "reason"
+},
+{
+"id": "luma-20250116-ray2",
+"date": "2025-01-16",
+"lab": "luma",
+"mod": [
+"video"
+],
+"fam": "ray",
+"name": "Ray2",
+"full": "Ray2",
+"src": "https://aws.amazon.com/blogs/aws/luma-ai-ray-2-video-model-is-now-available-in-amazon-bedrock/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "deepseek-20241226-deepseek-v3",
+"ref": "deepseek-20241226-deepseek-v3",
+"date": "2024-12-26",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V3",
+"src": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "DeepSeek-V3",
+"sec": 0
+},
+{
+"id": "google-20241216-veo-2-and-imagen-3-update",
+"ref": "google-20241216-veo-2-and-imagen-3-update",
+"date": "2024-12-16",
+"lab": "google",
+"mod": [
+"video",
+"image"
+],
+"fam": "veo",
+"name": "Veo 2 + Imagen 3",
+"src": "https://blog.google/technology/google-labs/video-image-generation-update-december-2024/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Veo 2 and Imagen 3 update",
+"sec": 0
+},
+{
+"id": "google-20241211-gemini-2-0-flash-experimental",
+"ref": "google-20241211-gemini-2-0-flash-experimental",
+"date": "2024-12-11",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 2.0 Flash",
+"src": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 2.0 Flash (experimental)",
+"sec": 0
+},
+{
+"id": "openai-20241209-sora-video-generator",
+"ref": "openai-20241209-sora-video-generator",
+"date": "2024-12-09",
+"lab": "openai",
+"mod": [
+"video"
+],
+"fam": "sora",
+"name": "Sora",
+"src": "https://openai.com/index/sora-is-here/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Sora video generator (app and web shut down 2026-04-26; API removal scheduled 2026-09-24)",
+"sec": 0,
+"end": "2026-04-26"
+},
+{
+"id": "meta-20241206-llama-3-3-70b",
+"ref": "meta-20241206-llama-3-3-70b",
+"date": "2024-12-06",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 3.3 70B",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Llama 3.3 70B",
+"sec": 0
+},
+{
+"id": "openai-20241205-o1-and-chatgpt-pro",
+"ref": "openai-20241205-o1-and-chatgpt-pro",
+"date": "2024-12-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "o1",
+"src": "https://en.wikipedia.org/wiki/OpenAI_o1",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "o1 and ChatGPT Pro",
+"sec": 0
+},
+{
+"id": "amazon-20241203-amazon-nova-models-re-invent-2024",
+"ref": "amazon-20241203-amazon-nova-models-re-invent-2024",
+"date": "2024-12-03",
+"lab": "amazon",
+"mod": [
+"llm"
+],
+"fam": "nova",
+"name": "Amazon Nova models",
+"src": "https://www.aboutamazon.com/news/aws/amazon-nova-ai-canvas-reel-aws-reinvent",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Amazon Nova models (re:Invent 2024)",
+"sec": 0
+},
+{
+"id": "tencent-202412-hunyuanvideo",
+"date": "2024-12",
+"lab": "tencent",
+"mod": [
+"video"
+],
+"fam": "hunyuan",
+"name": "HunyuanVideo",
+"full": "HunyuanVideo: 13B open-source video model",
+"src": "https://www.maginative.com/article/tencent-launches-hunyuanvideo-an-open-source-ai-video-model/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"t": "vid"
+},
+{
+"id": "microsoft-202412-phi-4",
+"ref": "microsoft-202412-phi-4",
+"date": "2024-12",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "phi",
+"name": "Phi-4",
+"src": "https://huggingface.co/microsoft/phi-4",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Phi-4",
+"sec": 0
+},
+{
+"id": "stability-20241022-sd-3-5",
+"date": "2024-10-22",
+"lab": "stability",
+"mod": [
+"image"
+],
+"fam": "sd3",
+"name": "Stable Diffusion 3.5",
+"full": "Stable Diffusion 3.5 Large and Large Turbo (Medium followed on 2024-10-29)",
+"src": "https://siliconangle.com/2024/10/22/stable-ai-releases-next-gen-open-source-stable-diffusion-3-5-text-image-ai-model-family/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20241022-claude-3-5-sonnet-new-3-5-haiku-and-computer-use",
+"ref": "anthropic-20241022-claude-3-5-sonnet-new-3-5-haiku-and-computer-use",
+"date": "2024-10-22",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 3.5 Sonnet (new)",
+"src": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 3.5 Sonnet (new), 3.5 Haiku and computer use",
+"sec": 0
+},
+{
+"id": "meta-20241004-movie-gen",
+"date": "2024-10-04",
+"lab": "meta",
+"mod": [
+"video"
+],
+"fam": "moviegen",
+"name": "Movie Gen",
+"full": "Movie Gen: video and sound generation, announced; not released as a product",
+"src": "https://www.axios.com/2024/10/04/meta-ai-video-movie-gen",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 1
+},
+{
+"id": "openai-20241001-devday-2024-realtime-api-prompt-caching-distilla",
+"ref": "openai-20241001-devday-2024-realtime-api-prompt-caching-distilla",
+"date": "2024-10-01",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "realtime",
+"name": "Realtime API",
+"src": "https://openai.com/devday/2024/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "DevDay 2024: Realtime API, prompt caching, distillation",
+"sec": 0,
+"t": "s2s"
+},
+{
+"id": "meta-20240925-llama-3-2",
+"ref": "meta-20240925-llama-3-2",
+"date": "2024-09-25",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 3.2",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Llama 3.2",
+"sec": 0
+},
+{
+"id": "qwen-20240919-qwen2-5",
+"ref": "qwen-20240919-qwen2-5",
+"date": "2024-09-19",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen2.5",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Qwen2.5",
+"sec": 0
+},
+{
+"id": "openai-20240912-o1-preview-and-o1-mini",
+"ref": "openai-20240912-o1-preview-and-o1-mini",
+"date": "2024-09-12",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "o1-preview",
+"src": "https://en.wikipedia.org/wiki/OpenAI_o1",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "o1-preview and o1-mini",
+"sec": 0,
+"t": "reason"
+},
+{
+"id": "deepseek-20240906-deepseek-v2-5",
+"ref": "deepseek-20240906-deepseek-v2-5",
+"date": "2024-09-06",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-V2.5",
+"src": "https://www.techtarget.com/whatis/feature/DeepSeek-explained-Everything-you-need-to-know",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "DeepSeek-V2.5",
+"sec": 0
+},
+{
+"id": "kyutai-202409-moshi",
+"date": "2024-09",
+"lab": "kyutai",
+"mod": [
+"speech"
+],
+"fam": "moshi",
+"name": "Moshi",
+"full": "Moshi: weights and Mimi codec open-sourced in September 2024 (unveiled in July)",
+"src": "https://the-decoder.com/kyutai-releases-moshi-an-open-source-conversational-ai-assistant/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"t": "s2s"
+},
+{
+"id": "bfl-20240801-flux-1",
+"date": "2024-08-01",
+"lab": "bfl",
+"mod": [
+"image"
+],
+"fam": "flux",
+"name": "FLUX.1",
+"full": "FLUX.1 [pro], [dev] and [schnell]; the dev and schnell weights are open",
+"src": "https://bfl.ai/announcements",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "xai-202408-grok-2",
+"ref": "xai-202408-grok-2",
+"date": "2024-08",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok-2",
+"src": "https://en.wikipedia.org/wiki/XAI_(company)",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Grok-2",
+"sec": 0
+},
+{
+"id": "mistral-20240724-mistral-large-2",
+"ref": "mistral-20240724-mistral-large-2",
+"date": "2024-07-24",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Large 2",
+"src": "https://mistral.ai/news/mistral-large-2407/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Mistral Large 2",
+"sec": 0
+},
+{
+"id": "meta-20240723-llama-3-1-405b",
+"ref": "meta-20240723-llama-3-1-405b",
+"date": "2024-07-23",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 3.1 405B",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Llama 3.1 405B",
+"sec": 0
+},
+{
+"id": "anthropic-20240621-claude-3-5-sonnet-and-artifacts",
+"ref": "anthropic-20240621-claude-3-5-sonnet-and-artifacts",
+"date": "2024-06-21",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 3.5 Sonnet",
+"src": "https://www.anthropic.com/news/claude-3-5-sonnet",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 3.5 Sonnet and Artifacts",
+"sec": 0
+},
+{
+"id": "runway-20240617-gen-3-alpha",
+"date": "2024-06-17",
+"lab": "runway",
+"mod": [
+"video"
+],
+"fam": "runway",
+"name": "Gen-3 Alpha",
+"full": "Gen-3 Alpha",
+"src": "https://runway.com/research/introducing-gen-3-alpha",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "deepseek-20240617-deepseek-coder-v2",
+"ref": "deepseek-20240617-deepseek-coder-v2",
+"date": "2024-06-17",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek-Coder-V2",
+"src": "https://www.techtarget.com/whatis/feature/DeepSeek-explained-Everything-you-need-to-know",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "DeepSeek-Coder-V2",
+"sec": 0
+},
+{
+"id": "nvidia-20240614-nemotron-4-340b",
+"ref": "nvidia-20240614-nemotron-4-340b",
+"date": "2024-06-14",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron-4 340B",
+"src": "https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Nemotron-4 340B",
+"sec": 0
+},
+{
+"id": "stability-20240612-sd3-medium",
+"date": "2024-06-12",
+"lab": "stability",
+"mod": [
+"image"
+],
+"fam": "sd3",
+"name": "Stable Diffusion 3 Medium",
+"full": "Stable Diffusion 3 Medium open weights",
+"src": "https://stability.ai/news-updates/stable-diffusion-3-medium",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "luma-20240612-dream-machine",
+"date": "2024-06-12",
+"lab": "luma",
+"mod": [
+"video"
+],
+"fam": "luma",
+"name": "Dream Machine",
+"full": "Dream Machine",
+"src": "https://en.wikipedia.org/wiki/Dream_Machine_(text-to-video_model)",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"t": "vid"
+},
+{
+"id": "qwen-202406-qwen2",
+"ref": "qwen-202406-qwen2",
+"date": "2024-06",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen2",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Qwen2",
+"sec": 0
+},
+{
+"id": "kuaishou-202406-kling",
+"date": "2024-06",
+"lab": "kuaishou",
+"mod": [
+"video"
+],
+"fam": "kling",
+"name": "Kling",
+"full": "Kling 1.0, first public testing",
+"src": "https://en.wikipedia.org/wiki/Kling_AI",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "mistral-20240529-codestral",
+"ref": "mistral-20240529-codestral",
+"date": "2024-05-29",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Codestral",
+"src": "https://simonwillison.net/2024/May/30/codestral/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Codestral",
+"sec": 0
+},
+{
+"id": "openai-20240513-gpt-4o",
+"ref": "openai-20240513-gpt-4o",
+"date": "2024-05-13",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-4o",
+"src": "https://en.wikipedia.org/wiki/GPT-4o",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-4o",
+"sec": 0
+},
+{
+"id": "microsoft-20240423-phi-3",
+"ref": "microsoft-20240423-phi-3",
+"date": "2024-04-23",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "phi",
+"name": "Phi-3",
+"src": "https://www.scriptbyai.com/microsoft-ai-timeline/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Phi-3",
+"sec": 0
+},
+{
+"id": "meta-20240418-llama-3",
+"ref": "meta-20240418-llama-3",
+"date": "2024-04-18",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 3",
+"src": "https://ai.meta.com/blog/meta-llama-3/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Llama 3",
+"sec": 0
+},
+{
+"id": "anthropic-20240304-claude-3-family-opus-sonnet-haiku",
+"ref": "anthropic-20240304-claude-3-family-opus-sonnet-haiku",
+"date": "2024-03-04",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 3 family",
+"src": "https://www.anthropic.com/news/claude-3-family",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 3 family (Opus, Sonnet, Haiku)",
+"sec": 0
+},
+{
+"id": "xai-202403-grok-1-open-weights",
+"ref": "xai-202403-grok-1-open-weights",
+"date": "2024-03",
+"lab": "xai",
+"mod": [
+"llm"
+],
+"fam": "grok",
+"name": "Grok-1 open weights",
+"src": "https://en.wikipedia.org/wiki/XAI_(company)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Grok-1 open weights",
+"sec": 0
+},
+{
+"id": "mistral-20240226-mistral-large-and-le-chat",
+"ref": "mistral-20240226-mistral-large-and-le-chat",
+"date": "2024-02-26",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral Large",
+"src": "https://techcrunch.com/2024/02/26/mistral-ai-releases-new-model-to-rival-gpt-4-and-its-own-chat-assistant/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Mistral Large and Le Chat",
+"sec": 0
+},
+{
+"id": "google-20240221-gemma-open-models",
+"ref": "google-20240221-gemma-open-models",
+"date": "2024-02-21",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemma",
+"name": "Gemma",
+"src": "https://en.wikipedia.org/wiki/Gemma_(language_model)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Gemma (open models)",
+"sec": 0
+},
+{
+"id": "openai-20240215-sora-preview",
+"ref": "openai-20240215-sora-preview",
+"date": "2024-02-15",
+"lab": "openai",
+"mod": [
+"video"
+],
+"fam": "sora",
+"name": "Sora (preview)",
+"src": "https://techcrunch.com/2024/02/15/openais-newest-model-can-generate-videos-and-they-look-decent/",
+"flag": 0,
+"open": 0,
+"st": "research",
+"full": "Sora preview",
+"sec": 0
+},
+{
+"id": "google-20240215-gemini-1-5",
+"ref": "google-20240215-gemini-1-5",
+"date": "2024-02-15",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 1.5",
+"src": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 1.5",
+"sec": 0
+},
+{
+"id": "qwen-20240205-qwen1-5",
+"ref": "qwen-20240205-qwen1-5",
+"date": "2024-02-05",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen1.5",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Qwen1.5",
+"sec": 0
+},
+{
+"id": "zhipu-20240116-glm-4",
+"ref": "zhipu-20240116-glm-4",
+"date": "2024-01-16",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "GLM-4",
+"src": "https://www.maginative.com/article/zhipu-ai-unveils-next-gen-foundation-model-glm-4-claims-performance-comparable-to-gpt-4/",
+"flag": 1,
+"open": null,
+"st": "ga",
+"full": "GLM-4",
+"sec": 0
+},
+{
+"id": "microsoft-20231212-phi-2",
+"ref": "microsoft-20231212-phi-2",
+"date": "2023-12-12",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "phi",
+"name": "Phi-2",
+"src": "https://www.scriptbyai.com/microsoft-ai-timeline/",
+"flag": 0,
+"open": null,
+"st": "ga",
+"full": "Phi-2",
+"sec": 0
+},
+{
+"id": "mistral-20231208-mixtral-8x7b",
+"ref": "mistral-20231208-mixtral-8x7b",
+"date": "2023-12-08",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mixtral 8x7B",
+"src": "https://arxiv.org/pdf/2401.04088",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Mixtral 8x7B",
+"sec": 0
+},
+{
+"id": "google-20231206-gemini-1-0",
+"ref": "google-20231206-gemini-1-0",
+"date": "2023-12-06",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Gemini 1.0",
+"src": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Gemini 1.0",
+"sec": 0
+},
+{
+"id": "midjourney-202312-v6",
+"date": "2023-12",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V6",
+"full": "Midjourney V6",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "anthropic-20231121-claude-2-1",
+"ref": "anthropic-20231121-claude-2-1",
+"date": "2023-11-21",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 2.1",
+"src": "https://www.anthropic.com/news/claude-2-1",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Claude 2.1",
+"sec": 0
+},
+{
+"id": "openai-20231106-tts-1",
+"date": "2023-11-06",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "otts",
+"name": "OpenAI TTS",
+"full": "tts-1 text-to-speech models in the API, announced at DevDay 2023",
+"src": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "deepseek-202311-deepseek-coder",
+"ref": "deepseek-202311-deepseek-coder",
+"date": "2023-11",
+"lab": "deepseek",
+"mod": [
+"llm"
+],
+"fam": "deepseek",
+"name": "DeepSeek Coder",
+"src": "https://www.techtarget.com/whatis/feature/DeepSeek-explained-Everything-you-need-to-know",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "DeepSeek Coder",
+"sec": 0
+},
+{
+"id": "mistral-20230927-mistral-7b",
+"ref": "mistral-20230927-mistral-7b",
+"date": "2023-09-27",
+"lab": "mistral",
+"mod": [
+"llm"
+],
+"fam": "mistral",
+"name": "Mistral 7B",
+"src": "https://techcrunch.com/2023/09/27/mistral-ai-makes-its-first-large-language-model-free-for-everyone/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Mistral 7B",
+"sec": 0
+},
+{
+"id": "meta-20230927-meta-connect-2023-meta-ai-assistant-and-emu",
+"ref": "meta-20230927-meta-connect-2023-meta-ai-assistant-and-emu",
+"date": "2023-09-27",
+"lab": "meta",
+"mod": [
+"image"
+],
+"fam": "emu",
+"name": "Emu",
+"src": "https://techcrunch.com/2023/09/27/from-ai-assistant-to-image-restyler-metas-new-ai-features",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Meta Connect 2023: Meta AI assistant and Emu",
+"sec": 0
+},
+{
+"id": "openai-20230920-dall-e-3",
+"ref": "openai-20230920-dall-e-3",
+"date": "2023-09-20",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "dalle",
+"name": "DALL·E 3",
+"src": "https://openai.com/index/dall-e-3/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "DALL·E 3",
+"sec": 0
+},
+{
+"id": "qwen-20230803-qwen-7b-open-source",
+"ref": "qwen-20230803-qwen-7b-open-source",
+"date": "2023-08-03",
+"lab": "qwen",
+"mod": [
+"llm"
+],
+"fam": "qwen",
+"name": "Qwen-7B",
+"src": "https://en.wikipedia.org/wiki/Qwen",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Qwen-7B (open source)",
+"sec": 0
+},
+{
+"id": "meta-202308-seamlessm4t",
+"date": "2023-08",
+"lab": "meta",
+"mod": [
+"speech"
+],
+"fam": "seamless",
+"name": "SeamlessM4T",
+"full": "SeamlessM4T: speech and text translation, released under a research licence",
+"src": "https://about.fb.com/news/2023/08/seamlessm4t-ai-translation-model/",
+"flag": 0,
+"open": 2,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "meta-202308-code-llama",
+"ref": "meta-202308-code-llama",
+"date": "2023-08",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Code Llama",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Code Llama",
+"sec": 0
+},
+{
+"id": "meta-20230718-llama-2",
+"ref": "meta-20230718-llama-2",
+"date": "2023-07-18",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "Llama 2",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"full": "Llama 2",
+"sec": 0
+},
+{
+"id": "anthropic-20230711-claude-2-and-claude-ai",
+"ref": "anthropic-20230711-claude-2-and-claude-ai",
+"date": "2023-07-11",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude 2",
+"src": "https://www.anthropic.com/news/claude-2",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude 2 and claude.ai",
+"sec": 0
+},
+{
+"id": "meta-20230620-voicebox",
+"date": "2023-06-20",
+"lab": "meta",
+"mod": [
+"speech"
+],
+"fam": "voicebox",
+"name": "Voicebox",
+"full": "Voicebox: Meta did not release the model or code, citing misuse risk",
+"src": "https://ai.meta.com/blog/voicebox-generative-ai-model-speech/",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-20230510-palm-2-i-o-2023",
+"ref": "google-20230510-palm-2-i-o-2023",
+"date": "2023-05-10",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "PaLM 2",
+"src": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "PaLM 2 (I/O 2023)",
+"sec": 0
+},
+{
+"id": "openai-20230314-gpt-4",
+"ref": "openai-20230314-gpt-4",
+"date": "2023-03-14",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-4",
+"src": "https://en.wikipedia.org/wiki/GPT-4",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "GPT-4",
+"sec": 0
+},
+{
+"id": "anthropic-20230314-claude-first-public-release",
+"ref": "anthropic-20230314-claude-first-public-release",
+"date": "2023-03-14",
+"lab": "anthropic",
+"mod": [
+"llm"
+],
+"fam": "claude",
+"name": "Claude",
+"src": "https://www.anthropic.com/news/introducing-claude",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "Claude (first public release)",
+"sec": 0
+},
+{
+"id": "zhipu-202303-chatglm-6b",
+"ref": "zhipu-202303-chatglm-6b",
+"date": "2023-03",
+"lab": "zhipu",
+"mod": [
+"llm"
+],
+"fam": "glm",
+"name": "ChatGLM-6B",
+"src": "https://en.wikipedia.org/wiki/GLM_(AI)",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "ChatGLM-6B",
+"sec": 0
+},
+{
+"id": "midjourney-202303-v5",
+"date": "2023-03",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney V5",
+"full": "Midjourney V5",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "meta-20230224-llama",
+"ref": "meta-20230224-llama",
+"date": "2023-02-24",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "LLaMA",
+"src": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+"flag": 1,
+"open": 2,
+"st": "ga",
+"full": "LLaMA",
+"sec": 0
+},
+{
+"id": "microsoft-202301-vall-e",
+"date": "2023-01",
+"lab": "microsoft",
+"mod": [
+"speech"
+],
+"fam": "vall-e",
+"name": "VALL-E",
+"full": "VALL-E: speech in a given voice from a 3-second sample; not released",
+"src": "https://arxiv.org/abs/2301.02111",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "openai-20221130-chatgpt",
+"date": "2022-11-30",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "ChatGPT",
+"full": "ChatGPT: a conversational model fine-tuned from the GPT-3.5 series",
+"src": "https://openai.com/index/chatgpt/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "google-20221005-imagen-video",
+"date": "2022-10-05",
+"lab": "google",
+"mod": [
+"video"
+],
+"fam": "veo",
+"name": "Imagen Video",
+"full": "Imagen Video: text-to-video research, not released",
+"src": "https://arxiv.org/abs/2210.02303",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-202210-phenaki",
+"date": "2022-10",
+"lab": "google",
+"mod": [
+"video"
+],
+"fam": "veo",
+"name": "Phenaki",
+"full": "Phenaki: long-form video from text, research only",
+"src": "https://arxiv.org/abs/2210.02399",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "meta-20220929-make-a-video",
+"date": "2022-09-29",
+"lab": "meta",
+"mod": [
+"video"
+],
+"fam": "moviegen",
+"name": "Make-A-Video",
+"full": "Make-A-Video: text-to-video research, not released",
+"src": "https://arxiv.org/abs/2209.14792",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "openai-20220921-whisper",
+"ref": "openai-20220921-whisper",
+"date": "2022-09-21",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "whisper",
+"name": "Whisper",
+"src": "https://openai.com/index/whisper/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"full": "Whisper",
+"sec": 0,
+"t": "asr"
+},
+{
+"id": "google-202209-audiolm",
+"date": "2022-09",
+"lab": "google",
+"mod": [
+"speech"
+],
+"fam": "audiolm",
+"name": "AudioLM",
+"full": "AudioLM: audio generation as language modelling over discrete tokens",
+"src": "https://arxiv.org/abs/2209.03143",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "stability-20220822-stable-diffusion",
+"date": "2022-08-22",
+"lab": "stability",
+"mod": [
+"image"
+],
+"fam": "sd",
+"name": "Stable Diffusion",
+"full": "Stable Diffusion",
+"src": "https://petapixel.com/2022/08/23/open-source-ai-image-generator-stable-diffusion-released-to-the-public/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"t": "t2i"
+},
+{
+"id": "midjourney-20220712-open-beta",
+"date": "2022-07-12",
+"lab": "midjourney",
+"mod": [
+"image"
+],
+"fam": "midjourney",
+"name": "Midjourney open beta",
+"full": "Midjourney open beta",
+"src": "https://en.wikipedia.org/wiki/Midjourney",
+"flag": 1,
+"open": 0,
+"st": "preview",
+"sec": 1
+},
+{
+"id": "bigscience-20220712-bloom",
+"date": "2022-07-12",
+"lab": "bigscience",
+"mod": [
+"llm"
+],
+"fam": "bloom",
+"name": "BLOOM",
+"full": "BLOOM: a 176B open-access multilingual model from the BigScience collaboration",
+"src": "https://www.technologyreview.com/2022/07/12/1055817/inside-a-radical-new-project-to-democratize-ai/",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "google-202206-parti",
+"date": "2022-06",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "imagen",
+"name": "Parti",
+"full": "Parti: autoregressive Transformer text-to-image model, research only",
+"src": "https://arxiv.org/abs/2206.10789",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-20220523-imagen",
+"ref": "google-20220523-imagen",
+"date": "2022-05-23",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "imagen",
+"name": "Imagen",
+"src": "https://9to5google.com/2022/05/23/google-ai-imagen-generator/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "Imagen",
+"sec": 0
+},
+{
+"id": "meta-20220503-opt-175b",
+"ref": "meta-20220503-opt-175b",
+"date": "2022-05-03",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "llama",
+"name": "OPT-175B",
+"src": "https://hidekazu-konishi.com/entry/open_weights_llm_release_history_and_timeline.html",
+"flag": 0,
+"open": 2,
+"st": "ga",
+"full": "OPT-175B",
+"sec": 0
+},
+{
+"id": "openai-20220406-dall-e-2",
+"ref": "openai-20220406-dall-e-2",
+"date": "2022-04-06",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "dalle",
+"name": "DALL·E 2",
+"src": "https://en.wikipedia.org/wiki/DALL-E",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"full": "DALL·E 2",
+"sec": 0,
+"t": "t2i"
+},
+{
+"id": "google-20220404-palm",
+"ref": "google-20220404-palm",
+"date": "2022-04-04",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "PaLM",
+"src": "https://en.wikipedia.org/wiki/2022_in_artificial_intelligence",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"full": "PaLM",
+"sec": 0
+},
+{
+"id": "google-202203-chinchilla",
+"date": "2022-03",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gopher",
+"name": "Chinchilla",
+"full": "Chinchilla: compute-optimal training of a 70B model",
+"src": "https://arxiv.org/abs/2203.15556",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "openai-202201-instructgpt",
+"date": "2022-01",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "InstructGPT",
+"full": "InstructGPT: language models trained to follow instructions with human feedback",
+"src": "https://openai.com/index/instruction-following/",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "google-20211208-gopher",
+"date": "2021-12-08",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gopher",
+"name": "Gopher (DeepMind)",
+"full": "Gopher: a 280B-parameter language model from DeepMind",
+"src": "https://arxiv.org/abs/2112.11446",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "openai-202112-glide",
+"date": "2021-12",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "dalle",
+"name": "GLIDE",
+"full": "GLIDE: a 3.5B diffusion text-to-image model; a smaller version was open-sourced",
+"src": "https://arxiv.org/abs/2112.10741",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "microsoft-20211011-mt-nlg",
+"date": "2021-10-11",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "mtnlg",
+"name": "Megatron-Turing NLG 530B",
+"full": "MT-NLG: 530B parameters, trained by Microsoft and NVIDIA",
+"src": "https://voicebot.ai/2021/10/11/24114/",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 1
+},
+{
+"id": "openai-202108-codex",
+"date": "2021-08",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "Codex",
+"full": "Codex: the model behind GitHub Copilot",
+"src": "https://openai.com/index/openai-codex/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "meta-202106-hubert",
+"date": "2021-06",
+"lab": "meta",
+"mod": [
+"speech"
+],
+"fam": "wav2vec",
+"name": "HuBERT",
+"full": "HuBERT",
+"src": "https://arxiv.org/abs/2106.07447",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "google-20210518-lamda",
+"date": "2021-05-18",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "LaMDA",
+"full": "LaMDA: a dialogue model shown at Google I/O 2021",
+"src": "https://blog.google/technology/ai/lamda/",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "openai-20210105-dall-e-clip",
+"date": "2021-01-05",
+"lab": "openai",
+"mod": [
+"image"
+],
+"fam": "dalle",
+"name": "DALL·E and CLIP",
+"full": "DALL·E (12B Transformer text-to-image, announced) with CLIP; DALL·E was not released as a product",
+"src": "https://openai.com/index/dall-e/",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-202010-vit",
+"date": "2020-10",
+"lab": "google",
+"mod": [
+"image"
+],
+"fam": "vit",
+"name": "Vision Transformer (ViT)",
+"full": "ViT: the Transformer applied to image patches",
+"src": "https://arxiv.org/abs/2010.11929",
+"flag": 1,
+"open": 1,
+"st": "research",
+"sec": 0
+},
+{
+"id": "meta-202006-wav2vec-2-0",
+"date": "2020-06",
+"lab": "meta",
+"mod": [
+"speech"
+],
+"fam": "wav2vec",
+"name": "wav2vec 2.0",
+"full": "wav2vec 2.0: self-supervised speech representations",
+"src": "https://arxiv.org/abs/2006.11477",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-202005-gpt-3",
+"date": "2020-05",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-3",
+"full": "GPT-3 (175B parameters): paper in May 2020; API beta from 2020-06-11",
+"src": "https://arxiv.org/abs/2005.14165",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "microsoft-20200213-turing-nlg",
+"date": "2020-02-13",
+"lab": "microsoft",
+"mod": [
+"llm"
+],
+"fam": "mtnlg",
+"name": "Turing-NLG",
+"full": "Turing-NLG: a 17B-parameter language model, the largest published at the time",
+"src": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-202001-meena",
+"date": "2020-01",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "gemini",
+"name": "Meena",
+"full": "Meena: a 2.6B-parameter open-domain chatbot; the model was not released",
+"src": "https://arxiv.org/abs/2001.09977",
+"flag": 0,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-201910-t5",
+"date": "2019-10",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "bert",
+"name": "T5",
+"full": "T5: every NLP task framed as text-to-text",
+"src": "https://arxiv.org/abs/1910.10683",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "nvidia-201908-megatron-lm",
+"date": "2019-08",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "mtnlg",
+"name": "Megatron-LM",
+"full": "Megatron-LM: an 8.3B-parameter Transformer trained with GPU model parallelism",
+"src": "https://nv-adlr.github.io/MegatronLM",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "meta-201907-roberta",
+"date": "2019-07",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "roberta",
+"name": "RoBERTa",
+"full": "RoBERTa",
+"src": "https://arxiv.org/abs/1907.11692",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-20190214-gpt-2",
+"date": "2019-02-14",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-2",
+"full": "GPT-2: announced 2019-02-14 with only a small model released at first; the full 1.5B model followed later in 2019",
+"src": "https://openai.com/index/better-language-models/",
+"flag": 1,
+"open": 2,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "google-201810-bert",
+"date": "2018-10",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "bert",
+"name": "BERT",
+"full": "BERT: bidirectional pre-training; code and models open-sourced in October 2018",
+"src": "https://arxiv.org/abs/1810.04805",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 0
+},
+{
+"id": "openai-20180611-gpt-1",
+"date": "2018-06-11",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-1",
+"full": "GPT-1: generative pre-training of a Transformer language model (117M parameters)",
+"src": "https://openai.com/index/language-unsupervised/",
+"flag": 1,
+"open": 0,
+"st": "research",
+"sec": 0
+},
+{
+"id": "google-20170612-transformer",
+"date": "2017-06-12",
+"lab": "google",
+"mod": [
+"llm"
+],
+"fam": "bert",
+"name": "Transformer (\"Attention Is All You Need\")",
+"full": "The Transformer architecture paper; no model released, shown as the origin of the line",
+"src": "https://arxiv.org/abs/1706.03762",
+"flag": 1,
+"open": 2,
+"st": "research",
+"sec": 0
+},
+{
+"id": "meta-20261015-muse-spark-open",
+"date": "2026-10-15",
+"lab": "meta",
+"mod": [
+"llm"
+],
+"fam": "muse",
+"name": "Muse Spark Open",
+"full": "Muse Spark Open: open-weight Muse model; specs from secondary coverage",
+"src": "https://macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio",
+"flag": 1,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"ref": "meta-20261015-muse-spark-open"
+},
+{
+"id": "nvidia-20261015-nemotron-3-5-super-vl",
+"date": "2026-10-15",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron 3.5 Super VL",
+"full": "Nemotron 3.5 Super VL: open-weight vision-language agent model; specs from a model listing",
+"src": "https://www.llmreference.com/model/nemotron-3.5-super-vl",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"ref": "nvidia-20261015-nemotron-3-5-super-vl"
+},
+{
+"id": "xai-20261014-grok-voice-3-0",
+"date": "2026-10-14",
+"lab": "xai",
+"mod": [
+"speech"
+],
+"fam": "grokvoice",
+"name": "Grok Voice 3.0",
+"full": "Grok Voice 3.0: speech-to-speech model for voice agents; benchmark claims are xAI's own",
+"src": "https://techenclave.com/news/items/xai-releases-grok-voice-3-and-upgrades-the-latest-api-alias",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"ref": "xai-20261014-grok-voice-3-0"
+},
+{
+"id": "openai-20261015-gpt-live-1-1",
+"date": "2026-10-15",
+"lab": "openai",
+"mod": [
+"speech"
+],
+"fam": "realtime",
+"name": "GPT-Live-1.1",
+"full": "GPT-Live-1.1: updated voice model in ChatGPT Voice; API coming soon",
+"src": "https://aiweekly.co/alerts/openai-rolls-out-gpt-live-11-to-all-users-with-13-new-voices-across-six-non",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1,
+"ref": "openai-20261015-gpt-live-1-1"
+},
+{
+"id": "nvidia-20261015-nemotron-3-5-bolt-74b-a9b",
+"date": "2026-10-15",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron 3.5 Bolt 74B-A9B",
+"full": "Nemotron 3.5 Bolt 74B-A9B: 2-bit 24 GB open model for local agents",
+"src": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 0,
+"ref": "nvidia-20261015-nemotron-3-5-bolt-74b-a9b"
+},
+{
+"id": "mistral-20261020-voxtral-3-and-voice-agent-sdk",
+"date": "2026-10-20",
+"lab": "mistral",
+"mod": [
+"speech"
+],
+"fam": "voxtral",
+"name": "Voxtral 3",
+"full": "Voxtral 3: transcription and TTS models with a voice agent SDK; weights not announced",
+"src": "https://www.testingcatalog.com/mistral-launches-voxtral-3-with-a-voice-agent-sdk/",
+"flag": 0,
+"open": 0,
+"st": "ga",
+"sec": 1
+},
+{
+"id": "nvidia-20261023-nemotron-3-5-bolt-e4b-4gb",
+"date": "2026-10-23",
+"lab": "nvidia",
+"mod": [
+"llm"
+],
+"fam": "nemotron",
+"name": "Nemotron 3.5 Bolt E4B",
+"full": "Nemotron 3.5 Bolt E4B 4GB: small open model for local voice agents and robots",
+"src": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+"flag": 0,
+"open": 1,
+"st": "ga",
+"sec": 1,
+"ref": "nvidia-20261023-nemotron-3-5-bolt-e4b-4gb"
+},
+{
+"id": "moonshot-20261023-kimi-k3-1-pro",
+"date": "2026-10-23",
+"lab": "moonshot",
+"mod": [
+"llm"
+],
+"fam": "kimi",
+"name": "Kimi K3.1 Pro",
+"full": "Kimi K3.1 Pro: post-trained K3; weights promised by 4 Nov 2026",
+"src": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+"flag": 1,
+"open": null,
+"st": "ga",
+"sec": 1,
+"ref": "moonshot-20261023-kimi-k3-1-pro"
+},
+{
+"id": "openai-20261026-gpt-6-1-terra",
+"date": "2026-10-26",
+"lab": "openai",
+"mod": [
+"llm"
+],
+"fam": "gpt",
+"name": "GPT-6.1 Terra",
+"full": "GPT-6.1 Terra: mid-tier computer-use model, $1/$5; performance claims are OpenAI’s",
+"src": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
+"flag": 1,
+"open": 0,
+"st": "ga",
+"sec": 0,
+"ref": "openai-20261026-gpt-6-1-terra"
+}
+]
+}

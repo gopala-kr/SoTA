@@ -1,0 +1,2509 @@
+{
+ "about": "Site-added papers that are NOT part of the Awesome-RSI catalog. The catalog's systematic screening thins after June 2026. Entries were found by keyword matching Hugging Face Daily Papers (basis: title) or by the weekly arXiv candidate search (basis: abstract) and classified provisionally by this site; papers were not read in full. Levels L1-L5 and families follow the catalog's taxonomy but are this site's judgement and may be wrong. Remove an entry once the catalog covers it.",
+ "retrieved": "2026-10-27",
+ "papers": [
+  {
+   "id": "2607.28568",
+   "t": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+   "l": 5,
+   "f": "5",
+   "o": [
+    "5",
+    "6"
+   ],
+   "why": "The title describes training an AI model for machine-learning research with recursive self-improvement as the goal, which points to improving the research process itself.",
+   "basis": "title"
+  },
+  {
+   "id": "2607.21461",
+   "t": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "4"
+   ],
+   "why": "The title describes a recursively self-improving deep-research agent, i.e. an agent that improves its own research workflow.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.38288",
+   "t": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "2"
+   ],
+   "why": "Self-improving agents trained on long-horizon reflective tasks: the agent keeps what it learns for later behaviour, inside a fixed procedure.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.24972",
+   "t": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Regularised recursive self-improvement of agent harnesses: the harness-improvement procedure itself is being improved and constrained.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.14857",
+   "t": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "A modular, generalisable recursive self-improvement method for agent harnesses; the title points to improving the improvement loop.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.08183",
+   "t": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+   "l": 2,
+   "f": "6",
+   "o": [
+    "6",
+    "3"
+   ],
+   "why": "Agentic post-training with a routing harness aimed at recursive self-improvement: the system chooses how to train, while the objective stays external.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.01437",
+   "t": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Asks whether LLMs can create and evolve their own agent harness, so the AI picks the improvement, with acceptance still set outside.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.07545",
+   "t": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Evolves agent harnesses by natural selection: the search strategy is the AI's, while the selection criterion is external.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.39045",
+   "t": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9",
+    "3"
+   ],
+   "why": "Autonomous agentic game development with recursive self-improvement; the artifact being improved is a game built by the agent.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.12564",
+   "t": "Scaling Automatic Research Agents via World Models",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Scaling automatic research agents with world models: improving the research process rather than a single task.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.39102",
+   "t": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+   "l": 3,
+   "f": "7",
+   "o": [
+    "7"
+   ],
+   "why": "Studies \"co-cheating\" in self-evolving search agents, i.e. how the learner and its feedback interact, which shapes what it learns next.",
+   "basis": "title"
+  },
+  {
+   "id": "2610.12374",
+   "t": "AgentGarten: Code Worlds for Evolving Agents",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Code worlds for evolving agents: the environment the learner trains in shapes its future experience.",
+   "basis": "title"
+  },
+  {
+   "id": "2607.17250",
+   "t": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "10"
+   ],
+   "why": "Co-evolves role-play agents and a world model, so the learner and its environment shape each other.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.16590",
+   "t": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "2"
+   ],
+   "why": "A closed-loop embodied harness for self-evolving physical intelligence: the deployed system adapts its own components over time.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.09819",
+   "t": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+   "l": 4,
+   "f": "5",
+   "o": [
+    "5",
+    "6"
+   ],
+   "why": "Open continual learning with self-improvement and mixture-of-LoRA: the deployed model keeps adapting inside a fixed training process.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.15779",
+   "t": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "A self-evolving ontology layer for data agents, i.e. retained knowledge that changes later behaviour.",
+   "basis": "title"
+  },
+  {
+   "id": "2607.14777",
+   "t": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Self-evolving on-policy distillation for agentic reinforcement learning: a fixed training procedure the model runs on itself.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.05987",
+   "t": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Recursive self-distillation for agentic reinforcement learning, run under a fixed, human-designed procedure.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.06296",
+   "t": "On-Policy Self-Distillation without Any Supervision",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "On-policy self-distillation without supervision: the model improves from its own outputs under a fixed method.",
+   "basis": "title"
+  },
+  {
+   "id": "2609.38721",
+   "t": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6",
+    "5"
+   ],
+   "why": "An on-policy self-distillation recipe for multimodal self-improvement, a fixed human-designed training procedure.",
+   "basis": "title"
+  },
+  {
+   "id": "2610.02826",
+   "t": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+   "l": 1,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Scales training trajectories through recursive self-rewrite: model-generated data under a fixed generation procedure.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.05466",
+   "t": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+   "l": 1,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Recursive synthesis of long-horizon terminal tasks: self-generated training data under a fixed procedure.",
+   "basis": "title"
+  },
+  {
+   "id": "2608.10157",
+   "t": "SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Verifier-grounded harness optimisation for planning agents, positioned against self-referential methods like the Darwin Gödel Machine: the system picks harness edits, with acceptance set by a verifier.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.31789",
+   "t": "MammoClaw: Towards Skill-Evolving Agent Harness for Breast Cancer Mammography Analysis",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "3"
+   ],
+   "why": "A training-free agent whose skill evolution turns failed trajectories into reusable guidance for later runs, with model weights frozen.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.11288",
+   "t": "Mako: A Self-Evolving Agentic Operating System (SE-AOS) for Autonomous Web Exploitation",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "3"
+   ],
+   "why": "An agent that treats its exploit capability as a mutable kernel: it observes its own failures, synthesises new capabilities, tests them on a live target and loads them back into itself.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.26598",
+   "t": "Living-Harness Is an Interactive-Agent Evolver",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "2"
+   ],
+   "why": "A self-evolving harness that converts each completed trajectory and its evaluator signal into revisions of the persistent harness for future tasks.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.17352",
+   "t": "Self-Modifying Lean Proof Agents with Verifier-Grounded Benchmark Coevolution",
+   "l": 3,
+   "f": "3",
+   "o": [
+    "3",
+    "8"
+   ],
+   "why": "A Lean proof agent whose workflow is evolved rather than hand-designed, with the benchmark co-evolving, so the learner shapes the tasks it faces next.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.13025",
+   "t": "Evo$^2$: Evolving the Evolver through Weight-Harness Co-Evolution",
+   "l": 5,
+   "f": "10",
+   "o": [
+    "10",
+    "3",
+    "5"
+   ],
+   "why": "Co-evolves model weights and the agent harness and aims to evolve the evolver itself, so the improvement mechanism is what is being improved.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.08919",
+   "t": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "2",
+    "5"
+   ],
+   "why": "Alternates between explicit textual state (skills, harnesses) and model weights to turn accumulated experience into reusable competence during deployment.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.13098",
+   "t": "VETR: Execution-Grounded Self-Improving Agent for Symbolic Graphics Reasoning",
+   "l": 1,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "An execution-grounded agent that refines symbolic graphics programs from verified execution traces, under a fixed refinement procedure.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.09426",
+   "t": "RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Turns published papers into executable environments for self-improvement, i.e. automatically producing the tasks and feedback future learning will use.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.07237",
+   "t": "SPECTRUM: Proximal Spectral Modulation for Looped Self-Distillation",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Looped self-distillation for code generation: a model repeatedly learns from its own raw outputs under a fixed information budget.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.38662",
+   "t": "CollabFlow: Recursive Self-Improvement of Agent Collaboration",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Recursive self-improvement of multi-agent collaboration: outcomes improve how agents collaborate across later tasks.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.34151",
+   "t": "Self-Evolving Agents via Likelihood-Guided Tool-Space Optimization",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Tool-space self-evolution: each recurring task type keeps a persistent tool space built from accumulated experience.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.13991",
+   "t": "Predict Before You Modify: Learning Improvement Dynamics for Self-Evolving Agents",
+   "l": 5,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "Learns an editable model of improvement dynamics that predicts a modification's outcome before costly evaluation, improving how improvements are proposed and checked.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.06396",
+   "t": "MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves",
+   "l": 5,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "6"
+   ],
+   "why": "A meta-recursive system aimed at improving the model-building machinery itself and applying it beyond machine-checkable benchmarks.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.00829",
+   "t": "HarnessEvolve: Learning from Reference Trajectories for Reliable Agent Self-Evolution",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "4"
+   ],
+   "why": "Self-evolving agents optimise their harness from environment feedback, using reference trajectories to address credit assignment, shortcut learning and forgetting.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.24735",
+   "t": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Recurses on the meta-operation's own products to reach greater meta-depth, aiming to improve the process that produces answers rather than the answers.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.11079",
+   "t": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Compresses the skills a self-evolving agent accumulates, keeping retained skills cheap to inject and maintain.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.05810",
+   "t": "When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "7"
+   ],
+   "why": "Shows accumulated skills can contaminate later ones and proposes pre-commit gating to keep self-evolution from degrading performance.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.07321",
+   "t": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Iterative tool optimisation that turns atomic actions into standard operating procedures for self-evolving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2606.28279",
+   "t": "Agentic Hardware Design as Repository-Level Code Evolution",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9",
+    "3"
+   ],
+   "why": "A self-evolving agent loop that evolves a hardware-design repository against an executable evaluator and a fixed acceptance predicate.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15772",
+   "t": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6",
+    "4"
+   ],
+   "why": "Recursive self-improving policy optimisation for agentic RL, combining skills with policy learning under a fixed training procedure.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15389",
+   "t": "VideoEvoHarness: Self Evolving Agent Harness from Unlabeled Videos for Video Understanding",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolves a video-understanding agent harness from unlabelled videos, choosing its own improvements without annotated question-answer data.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.38372",
+   "t": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "The agent acts as its own harness optimiser across multiple tasks, instead of a separate proposer.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.35328",
+   "t": "Hyper Algorithm Design Agent: Evolving Learnable Optimizer from Zero",
+   "l": 2,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "An agent that designs learnable optimisation algorithms from scratch inside a meta-optimisation setup.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.32091",
+   "t": "Memory as Middleware for Self-Improving AI Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Memory as shared middleware so agents keep durable knowledge of past failures and repairs across sessions.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.31760",
+   "t": "What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "3"
+   ],
+   "why": "An agent finds a missing robot capability, writes or installs new skills, tests each change in simulation and repeats, studied over 123 rounds.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.24838",
+   "t": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Medical agents learn from their own failures and autonomously extend their skills after deployment.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.19526",
+   "t": "Self Improvement via Fast Tree-search",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "9"
+   ],
+   "why": "A sample-efficient framework in which coding agents improve their own implementations using fast tree search.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.19592",
+   "t": "Knowledge-Centric Self-Improvement",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Treats accumulated knowledge, not the agent, as the object that improves, so gains transfer across agent designs.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15782",
+   "t": "Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping",
+   "l": 1,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Data-centric self-improvement for navigation: model-generated language-action data produced under a fixed pipeline.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15964",
+   "t": "Small but Mighty: Test Suites as Improvement Signals for Self-Evolving Agents",
+   "l": 5,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "Builds better improvement signals (test suites) for deciding which self-rewrites an agent keeps, improving the acceptance check itself.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15150",
+   "t": "Harmony Harness: Multi-Objective Self-Evolution of Agent Harnesses",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Multi-objective self-evolution of agent harnesses, evolving components separately instead of as one artifact.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.14224",
+   "t": "Harness^2: Recursive Agent Harnessing for an Open World",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Recursive agent harnessing for open-world tasks, applying self-improvement to the harness-evolution process.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.12369",
+   "t": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "9"
+   ],
+   "why": "Stateful code that a robot agent rewrites over time, as an approach to robot recursive self-improvement.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.12176",
+   "t": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+   "l": 2,
+   "f": "5",
+   "o": [
+    "5",
+    "7"
+   ],
+   "why": "Multi-agent self-supervision on non-verifiable tasks, where the model acts as its own optimiser and evaluator.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.10498",
+   "t": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+   "l": 3,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "8"
+   ],
+   "why": "Hypothesis-guided co-evolution for active continual robot learning: the system chooses what to try next to gather useful experience.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.08327",
+   "t": "MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Self-evolving medical agents that improve through iterative task generation and problem solving.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.08993",
+   "t": "Verify Less, Evolve More: Training Idea-Level Critics for Verification-Efficient ML Evolving Agents",
+   "l": 5,
+   "f": "7",
+   "o": [
+    "7"
+   ],
+   "why": "Trains idea-level critics so self-evolving ML agents verify fewer candidates, improving the evaluation step of the evolution loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.08432",
+   "t": "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "An embodied harness that improves itself from experience traces under sparse feedback.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.02616",
+   "t": "VERSE: Verified Self-Evolving Optimizer for Agent Harnesses",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "A verified self-evolving optimiser that also improves how it diagnoses failures, develops edits and tests them, so the optimiser itself is improved.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.01161",
+   "t": "My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6",
+    "7"
+   ],
+   "why": "Self-diagnosis as credit assignment in self-evolving agentic RL, a fixed training procedure.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.39306",
+   "t": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Mitigates collapse in iterative agent self-distillation across deployment cycles.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.37834",
+   "t": "Mixture of Self-Improving Branches For Agent Harness Optimization",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Harness optimisation with branches of self-improvement, extending Meta-Harness style iterative code generation and evaluation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36695",
+   "t": "Know Thyself, Teach Thyself: Internal Information Flow for Selective Self-Distillation",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Selective self-distillation guided by internal information flow, a fixed self-training loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36675",
+   "t": "Gödel Forest: Balancing Search Depth and Breadth for Data-Centric Recursive Self-Improvement",
+   "l": 1,
+   "f": "5",
+   "o": [
+    "5",
+    "8"
+   ],
+   "why": "Data-centric recursive self-improvement: balances search depth and breadth when training the model on agent-generated data.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36746",
+   "t": "EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Behaviour-adaptive curation of the skills a self-evolving agent accumulates.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36043",
+   "t": "SAGE: A Statistical Acceptance Gate for Self-Evolving Agents",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "A statistical gate that decides whether to accept a self-evolving agent's proposed skill-document edit; the acceptance rule is designed by humans.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.10088",
+   "t": "SkillSandbox: Skill Verification via Dynamic Scenario Synthesis",
+   "l": 4,
+   "f": "7",
+   "o": [
+    "7",
+    "4"
+   ],
+   "why": "Verifies each distilled skill's reusability using synthesised scenarios, for self-evolving agents that accumulate skills.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.18813",
+   "t": "Self-Evolving Agent Harness",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Formalises feedback-driven revision of an agent's prompts, memory, workflows and code with weights fixed.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.30652",
+   "t": "Recursive Self-Improvement via On-Policy Distillation for Reasoning",
+   "l": 1,
+   "f": "5",
+   "o": [
+    "5",
+    "6"
+   ],
+   "why": "Model improves itself by on-policy distillation for reasoning; the loop is fixed by humans.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.27612",
+   "t": "RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Robot-agent harness whose self-improvement is gated by verified evidence of task completion.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.20519",
+   "t": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "6"
+   ],
+   "why": "Scales auto-research loops that improve a coding-agent harness.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.34988",
+   "t": "The Right Lesson at the Right Step: Deriving Control Updates for Self-Evolving Agents",
+   "l": 4,
+   "f": "1",
+   "o": [
+    "1",
+    "2"
+   ],
+   "why": "Derives where in a task a lesson from past experience should be applied, rather than one global prompt.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.32630",
+   "t": "ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Synthesises agent skills by navigating stored experience directly.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.08832",
+   "t": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolving agents trained to behave consistently across repeated runs of the same task.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.29626",
+   "t": "iCoder-27B: Recursive AI-Led Development of Frontier Industrial Coding Model",
+   "l": 3,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "8"
+   ],
+   "why": "Reports a coding model developed largely by AI; claims are the authors' and unreplicated.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.24876",
+   "t": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "3",
+    "4"
+   ],
+   "why": "Recursively evolves an experiential working memory for long-horizon agent harnesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.22610",
+   "t": "Coalition-Aware Skill Reliability for Self-Evolving Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Scores the reliability of skills in a skill bank, accounting for skills used together.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.22120",
+   "t": "Success Leaves Detours: Learning Executable Walkthroughs for Long-Horizon Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "4"
+   ],
+   "why": "Learns executable walkthroughs from successful trajectories, dropping detours and failures.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.09629",
+   "t": "Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines?",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "6"
+   ],
+   "why": "Asks whether the agent can decide how to gather evidence and revise itself, instead of a prescribed pipeline.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.04872",
+   "t": "A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Hierarchical coordination of self-evolving agents for symbolic regression.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.02508",
+   "t": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "6"
+   ],
+   "why": "Trains a self-evolving agent's memory with RL, balancing feedback coverage against reward hacking.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.14408",
+   "t": "Reward-Free Evolving Agents via Pairwise Validator",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7",
+    "1"
+   ],
+   "why": "Replaces the per-iteration reward in a self-evolving loop with a pairwise validator.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.13683",
+   "t": "HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Searches a bank of harness 'genes' with gated verification for agent-harness self-evolution.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.08010",
+   "t": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Agents build reusable tools for repeated steps, cutting latency in production systems.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.28692",
+   "t": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Self-evolving scientific agent that acquires new tools guided by an ontology.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.00871",
+   "t": "Self-Evolving Agents with Anytime-Valid Certificates",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7"
+   ],
+   "why": "Gives anytime-valid statistical certificates for self-evolving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.18845",
+   "t": "The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement",
+   "l": 2,
+   "f": "6",
+   "o": [
+    "6",
+    "5",
+    "3"
+   ],
+   "why": "An agent takes over the training-recipe loop for Earth-observation models, framed as recursive self-improvement.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.18083",
+   "t": "AReaL-RSI: Adaptive Scaling and Coordination of Recursive Self-Improvement",
+   "l": 2,
+   "f": "10",
+   "o": [
+    "10",
+    "3"
+   ],
+   "why": "Studies how to scale compute and researcher agents in an RSI research loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.17718",
+   "t": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "ECG model improved by targeted waveform data that follows its own weaknesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.17114",
+   "t": "D-World: An Explicit World-Language-Action Model with Recursive Self-Improvement under Dual Control",
+   "l": 1,
+   "f": "5",
+   "o": [
+    "5",
+    "3"
+   ],
+   "why": "World-language-action robot model with a recursive self-improvement loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.16491",
+   "t": "Drafting Agents, Not Just Tokens: Speculative Recursive Self-Improvement for Agentic Systems",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Drafts and cheaply screens candidate agent revisions before full evaluation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.16078",
+   "t": "Heterogeneous Agentic Coevolution",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "3"
+   ],
+   "why": "Co-evolves agents and specialised foundation models across domains.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15708",
+   "t": "SpecForge: Recursive Self-Improvement for Coding Agents via Behavioral Specifications",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7",
+    "3",
+    "1"
+   ],
+   "why": "Coding agents improve their external context from behavioural specifications, weights frozen.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.15084",
+   "t": "Self-Evolving Visual Agent via Margin Reward",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6",
+    "4"
+   ],
+   "why": "Self-evolving visual agent trained with a margin reward instead of curated QA.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.14163",
+   "t": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Terminal agents generate verifiable training environments for further RL.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.13912",
+   "t": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+   "l": 3,
+   "f": "7",
+   "o": [
+    "7",
+    "8"
+   ],
+   "why": "Uses learned world models to supply feedback inside an RSI loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.13376",
+   "t": "EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Physical-evidence-driven improvement of endoscopic robot policies.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.11794",
+   "t": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "7"
+   ],
+   "why": "Agent keeps a rulebook of world-model hypotheses revised from new evidence.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.12789",
+   "t": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Self-improving agents maintain falsifiable beliefs about environment dynamics.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.08995",
+   "t": "PhysEvo: Astra Can Act, Let It",
+   "l": 3,
+   "f": "10",
+   "o": [
+    "10",
+    "8"
+   ],
+   "why": "Physical RSI framework for robot manipulation and observation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.08640",
+   "t": "RIWANav: Recursive World-Action Models with Self-Improvement for Urban Navigation",
+   "l": 3,
+   "f": "5",
+   "o": [
+    "5",
+    "8"
+   ],
+   "why": "Recursive world-action model for urban navigation that learns from its own failures.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.07969",
+   "t": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Recursive self-improvement flywheel that generates embodied training data in simulation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.05701",
+   "t": "Second-Order Problem Solving for Recursive Self-Improvement in Formal Verification",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "6"
+   ],
+   "why": "Second-order problem solving: improves the improvement workflow for formal verification.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.05151",
+   "t": "Recursive Self-Improvement of Visuomotor Policies through Local Recovery Supervision",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Visuomotor policies improve from supervision collected at their own recovery points.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.05300",
+   "t": "MESH-Harness: Self-Improving Agent Harnesses via Bandit-Guided Compositional Evolution",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Bandit-guided compositional evolution of agent harness code.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.04646",
+   "t": "SEIS: Self-Evolving Inference Systems",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolving search over LLM serving-system optimisations.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.04299",
+   "t": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Studies how self-evolving reasoning models can avoid collapse when training on their own questions.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.03002",
+   "t": "Recursive Self-Improvement in Unified Multimodal Models",
+   "l": 1,
+   "f": "5",
+   "o": [
+    "5",
+    "8"
+   ],
+   "why": "Unified multimodal models generate their own training data for self-improvement.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.02975",
+   "t": "Reliable Self-Evolution with Imperfect Proxy Rewards",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7"
+   ],
+   "why": "Self-evolving search for science that stays reliable under imperfect proxy rewards.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.02793",
+   "t": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
+   "l": 2,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "8"
+   ],
+   "why": "Turns findings from research papers into continual model updates.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.02920",
+   "t": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "7"
+   ],
+   "why": "Evolves a safety harness against newly emerging attacks from sparse evidence.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.01766",
+   "t": "VideoEvolve: Evolving Agent Harnesses for Video Temporal Grounding",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Evolves the harness around frozen video-language models for temporal grounding.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.38905",
+   "t": "EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Robot adaptation where the data needed next depends on the policy's current weaknesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.37950",
+   "t": "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Video-understanding agents evolve their executable harness.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36549",
+   "t": "MedForge-RSI: Medical Deepfake Detection via Recursive Self-Improvement",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Medical deepfake detector improved through a recursive loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.36235",
+   "t": "MERID: Multimodal Exploration via Recursive Self-Improvement Agents for Major Depression Analysis",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Recursive self-improvement agents for multimodal depression analysis.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.35561",
+   "t": "RSI-Master: Structuring Experiments to Guide Autonomous Model Improvement",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "8"
+   ],
+   "why": "Structures experiments to guide autonomous model improvement.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.34712",
+   "t": "RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "3"
+   ],
+   "why": "Evolves subtask-level routing and skills for cost-efficient agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.33867",
+   "t": "R$^2$ Flow: Recursive Self-Improvement via Recursive Skill Evolution",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "6"
+   ],
+   "why": "Recursive skill evolution trained with a flow-based objective.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.33398",
+   "t": "COEVO: Co-Evolving Context and Parameters for Recursive Self-Improvement",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "5",
+    "1"
+   ],
+   "why": "Co-evolves context and model parameters.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.32984",
+   "t": "ReVision3D: Attribution-Guided Recursive Self-Improvement for 3D Medical Perception",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Attribution-guided recursive self-improvement for 3D medical perception.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.27389",
+   "t": "EvoAudio: Recursive Self-Improvement for Audio Understanding",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Audio language model improved with self-generated acoustic annotation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.26863",
+   "t": "Towards Strategy-Level RSI for Skill-Augmented Agents: Learning When to Reuse Skills from Execution Feedback",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Learns when to reuse accumulated skills from execution experience.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.17523",
+   "t": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Interactive scientific-research workspace with continually improving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.15364",
+   "t": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "4",
+    "2"
+   ],
+   "why": "Autonomous exploration so agents adapt to new environments.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.29966",
+   "t": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement",
+   "l": 2,
+   "f": "8",
+   "o": [
+    "8",
+    "3"
+   ],
+   "why": "Evolves data-preparation pipelines for domain adaptation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.27266",
+   "t": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search",
+   "l": 2,
+   "f": "1",
+   "o": [
+    "1"
+   ],
+   "why": "Shows simple prompt optimisation can match complex prompt search for agent improvement.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.22688",
+   "t": "Co-Harness: Co-Evolving Harnesses and Model Weights for LLM Agents",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "3",
+    "5"
+   ],
+   "why": "Co-evolves the runtime harness and model weights of research agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.14118",
+   "t": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "3",
+    "6"
+   ],
+   "why": "Training loop built into the agent harness environment.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.12469",
+   "t": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+   "l": 1,
+   "f": "6",
+   "o": [
+    "6",
+    "8"
+   ],
+   "why": "Image editor improves through reward-verified self-distillation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.07979",
+   "t": "Learning from Revision Consequences: Hindsight Meta-Experience Distillation for Self-Improving Agents",
+   "l": 5,
+   "f": "4",
+   "o": [
+    "4",
+    "6"
+   ],
+   "why": "Learns the process that discovers and refines skills, from the consequences of past revisions.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.04469",
+   "t": "Trinity: Self-Evolving Vision-Language Models with a Self-Verifier",
+   "l": 1,
+   "f": "5",
+   "o": [
+    "5",
+    "8",
+    "7"
+   ],
+   "why": "Vision-language model generates its own training data from unlabelled images with a self-verifier.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.03548",
+   "t": "Recursive Harness Self-Improvement for Frontier Reasoning Data Synthesis",
+   "l": 5,
+   "f": "8",
+   "o": [
+    "8",
+    "3"
+   ],
+   "why": "Synthesis procedure for harder reasoning problems that itself evolves.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.35568",
+   "t": "From Experience to Expertise: Adoption-Aware Memory Learning for Data-Scarce NPU Kernel Synthesis",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Adoption-aware memory learning for NPU kernel synthesis.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.34649",
+   "t": "Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "1"
+   ],
+   "why": "Self-evolving context-management policies for long-horizon harnesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.19664",
+   "t": "VideoResearcher: Self-Improving Tool Design for Long-Video Understanding",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Agent redesigns its own tools for long-video understanding.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2607.22511",
+   "t": "CausalSmith: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "7",
+    "9"
+   ],
+   "why": "Self-improving agentic framework for automated theoretical research in causal inference.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2606.15363",
+   "t": "APEX: Adaptive Principle EXtraction A Three-Layer Self-Evolution Framework for Production AI Agents",
+   "l": 4,
+   "f": "1",
+   "o": [
+    "1",
+    "3"
+   ],
+   "why": "Extracts adaptive principles for prompts and workflows in production agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2606.16420",
+   "t": "Transferable Self-Evolving Playbooks for Agentic Security Auditing",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "1"
+   ],
+   "why": "Self-evolving playbooks that transfer across security-auditing agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.10224",
+   "t": "Self-evolving Agentic Customer Support System at LinkedIn",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "3"
+   ],
+   "why": "Industry deployment: a customer-support agent at LinkedIn that evolves with policies and product changes.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.18792",
+   "t": "SEAR: Self-Evolving Agentic Robotics",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Robot agents write control code and keep what works as skills and memories.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.18097",
+   "t": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "6"
+   ],
+   "why": "Agentic post-training of text-to-image models from feedback instead of fixed curated data.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.12235",
+   "t": "Language Models as AI Research World Models",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "Language models used as world models to predict outcomes of AI-research experiments.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.11464",
+   "t": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents",
+   "l": 5,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "Co-evolves inspectable graders with the agent they judge.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.04302",
+   "t": "From Valid to Useful: Post-Verification Acquisition for Recursive Self-Improving Recommendation",
+   "l": 1,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Post-verification acquisition of synthetic sequences for a recursive recommender loop.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.35110",
+   "t": "Sol-H3: Recursive Self-Improvement for MiniMax-H3 Inference Acceleration on Sol-Engine across Cloud and Edge",
+   "l": 1,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "Recursive self-improvement used to accelerate inference of a video diffusion model.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2609.03753",
+   "t": "SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Self-evolving agent accumulating skills and knowledge for traffic simulation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.26418",
+   "t": "Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI",
+   "l": 1,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "AI-designed, verified and deployed accelerator; an external artifact, not the model itself.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.23098",
+   "t": "InstAgent: A Recursively Self-Improving Agent Operating System for Heterogeneous Robot Collaboration",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "4"
+   ],
+   "why": "Recursively self-improving agent operating system for heterogeneous robot teams.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.23574",
+   "t": "Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "1"
+   ],
+   "why": "Consolidates experience into environment-adaptive memory for recursively self-evolving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.20312",
+   "t": "Reflect After Failure: Brain-Inspired Self-Evolving Agents for Embodied Spatial Intelligence",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "3"
+   ],
+   "why": "Brain-inspired reflection after failure for self-evolving embodied spatial agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.22740",
+   "t": "R$^2$Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "6"
+   ],
+   "why": "Recursive self-improvement of agent orchestration through self-play within a skill.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.21055",
+   "t": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "6",
+    "8"
+   ],
+   "why": "Agent-native system that runs autonomous post-training research, measured on a weaker, testable form of RSI.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.21040",
+   "t": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
+   "l": 3,
+   "f": "7",
+   "o": [
+    "7",
+    "8"
+   ],
+   "why": "Evolves adversarial meta-prompts so a proposer-solver loop keeps improving its own reward.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.23344",
+   "t": "Language Models Learn to Improve Language Models",
+   "l": 5,
+   "f": "6",
+   "o": [
+    "6",
+    "3"
+   ],
+   "why": "Language models trained to improve language models, aimed at automating LM development.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.22344",
+   "t": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "6"
+   ],
+   "why": "Generalist agentic model for autonomous machine-learning engineering.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.21791",
+   "t": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Adaptive self-improvement workflows driven by an evolving meta-agent.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.20474",
+   "t": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "On-demand recursive self-improvement for vision-language-action robots on unseen long tasks.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.20431",
+   "t": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "10"
+   ],
+   "why": "Evolving scientific agent swarm that improves its research capability from its own experiments.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.20294",
+   "t": "MMLA-RSI: Recursive Self-Improvement through RTT and RTMA",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "1"
+   ],
+   "why": "Changes how the agent acts and which experience it retains, for unresolved problems.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.19424",
+   "t": "VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Structured recursive self-improvement of video-understanding harnesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.23599",
+   "t": "From Trajectories to Differentiated Skills: Cognitive Differentiation for Self-Improving Agents",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "2"
+   ],
+   "why": "Differentiates distilled skills from trajectories for self-improving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.21887",
+   "t": "MetaShare: Failure-Aware Collective Self-Improvement for Open-Ended Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "10"
+   ],
+   "why": "Failure-aware experience sharing across lineages of open-ended self-improving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.20809",
+   "t": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "7"
+   ],
+   "why": "Self-improving agent that grows its own domain-specific language, deciding which skills to keep without a judge model.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.19725",
+   "t": "TimeRSI: Towards Self-Improved Agentic Deployment for Time-Series Foundation Models",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "4"
+   ],
+   "why": "Self-improved agentic deployment for time-series foundation models.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.19591",
+   "t": "L3M: A Verifiable Harness and Runtime for Self-Extending and Self-Improving Agents",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "4",
+    "9"
+   ],
+   "why": "Verifiable harness and runtime for self-extending and self-improving agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.14730",
+   "t": "Self-improving data synthesis enables scalable adaptation of embedding models",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Self-improving data synthesis to adapt embedding models without manual training-data design.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2608.06410",
+   "t": "ADIAS: Automated Design of Interactive Agentic Systems",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "10"
+   ],
+   "why": "Automatically designs agentic systems by optimizing the harness from evaluation feedback, recording how evolution proceeds.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.33046",
+   "t": "Organon : From Evolutionary Search to Recursive Self-Improving Agents for Scientific Discovery",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3",
+    "9"
+   ],
+   "why": "Moves from fixed evolutionary search to agents that adapt their own research methods during scientific discovery.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.24453",
+   "t": "Hippo: Training-Free Agent Self-Evolution via Hippocampal Replay",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Training-free agent self-evolution: external memory is consolidated by replay so experience keeps improving later behaviour.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.24464",
+   "t": "Learning to Compose: Recursive Self-Improvement of Shared Executable Stacks for Zero-Shot Long-Horizon Robot Manipulation",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4",
+    "3"
+   ],
+   "why": "Recursia treats a shared executable skill stack as the persistent unit of improvement for robot manipulation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.24454",
+   "t": "MELD: Recursive Self-Improvement via Hierarchical Coordination for Multi-Agent Scientific Discovery",
+   "l": 4,
+   "f": "5",
+   "o": [
+    "5",
+    "10"
+   ],
+   "why": "Hierarchical test-time training where research assignments shape the experiences multi-agent scientists adapt from.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.25119",
+   "t": "Memory as Belief: Bayesian Evolution of Memory for Self-Evolving LLM Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Bayesian updating of memory value so self-evolving agents reuse only reliable past experience.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.24944",
+   "t": "Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "3"
+   ],
+   "why": "Persistent research agent that evolves its methods across sessions from accumulated history and review.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.25114",
+   "t": "Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Compiles frozen, portable skills for embodied agents and measures what recursive self-improvement adds on top.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.25012",
+   "t": "Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "A self-improving agentic loop that co-compiles draft and target models for speculative decoding.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.25089",
+   "t": "DAGLoop: Aligning Method Design with Experimental Feedback in Automated AI Research",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9",
+    "6"
+   ],
+   "why": "Automated AI research loop that revises method designs from experimental feedback.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.26770",
+   "t": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Label-free recursive harness improvement with Pareto selection over performance and cost.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.26554",
+   "t": "BetaMem: Learning to Remember a Changing World for Embodied Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Builds and evolves traceable long-term memory for embodied agents.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.26453",
+   "t": "Learning What to Remember: Resource-Efficient Self-Improvement for Lifelong Agents",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2"
+   ],
+   "why": "Learns what experience to keep so lifelong agents self-improve under resource limits.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.28282",
+   "t": "ChartEvo: Self-Evolving Agent Harnesses for Long-Tail Chart Reasoning",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolving agent harness for long-tail chart reasoning.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.28201",
+   "t": "MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Model-as-data approach to recursive self-improvement of agent harnesses.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.27495",
+   "t": "Self-Evolving Agents through Privileged Retrospective Distillation",
+   "l": 3,
+   "f": "5",
+   "o": [
+    "5",
+    "8"
+   ],
+   "why": "Self-distillation from the agent’s own retrospectively relabelled trajectories when no ground truth exists.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.28386",
+   "t": "VisualEvolve: A Skill Self-Evolution Framework for Visual Reasoning",
+   "l": 4,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Visual tool operations and strategies are kept as skills that the VLM agent evolves.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.28380",
+   "t": "Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Evolves object-oriented agent harnesses so different task types get different execution strategies.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.28945",
+   "t": "Self-Improving Agents with World Model Predictive Paths",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "3"
+   ],
+   "why": "Agents combine world-model predictions with accumulated interaction experience to improve decisions during deployment.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.27435",
+   "t": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Iteratively improves the harness of long-horizon terminal agents for reliable repeated runs.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.30042",
+   "t": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3",
+    "10"
+   ],
+   "why": "Lineage-aware guided harness optimization building on Darwin/Huxley-Gödel-machine style search.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.29121",
+   "t": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before They Run",
+   "l": 5,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "A coding agent that rewrites its own scaffold scores proposed edits before running them to steer its self-improvement search.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.30017",
+   "t": "GuideEvolve: Self-Evolving Agent Framework with Expert Guidance and 3Ts Mechanisms",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolving agent framework with expert guidance and self-regulating mechanisms.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.29784",
+   "t": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
+   "l": 3,
+   "f": "5",
+   "o": [
+    "5",
+    "8"
+   ],
+   "why": "A forecasting system that keeps improving from its own experience of resolved questions.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.29641",
+   "t": "Recursive Code Evolution for Task-Oriented Semantic Communications",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "Recursive code evolution of the communication program in semantic communications.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.29560",
+   "t": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Self-evolving harnesses that let VLM planners handle history-dependent robot manipulation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.29005",
+   "t": "VeriEvolve: Evaluator-First Evolution for Tool-Using Agents",
+   "l": 2,
+   "f": "7",
+   "o": [
+    "7",
+    "3"
+   ],
+   "why": "Builds the evaluator first, then evolves tool-using agents against it.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.33106",
+   "t": "VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3",
+    "10"
+   ],
+   "why": "A self-evolving adversarial agent team improves prompt-to-game development.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.31034",
+   "t": "CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "Collaborative agents evolve high-performance NPU kernels.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.31192",
+   "t": "Large Language Models Meet Bayesian Optimization: Towards Self-evolving Wireless Digital Twins",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "LLM-guided Bayesian optimization lets wireless digital twins adapt their own modelling structure.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.30557",
+   "t": "Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10",
+    "2"
+   ],
+   "why": "Governed self-evolution of a multi-agent investing system around an invariant core.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.32813",
+   "t": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Recursive harness improvement aimed at token efficiency through guarded decision reuse.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.32326",
+   "t": "TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "DAG-based multi-agent code evolution for generative recommendation.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.32120",
+   "t": "ImageRSI: Verification-Driven Recursive Self-Improvement for Agentic Image Generation",
+   "l": 4,
+   "f": "2",
+   "o": [
+    "2",
+    "4"
+   ],
+   "why": "Keeps lessons from verifying and repairing images so later generation requests improve.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.32026",
+   "t": "RSI-Opt: Recursive Self-Improvement Optimizer Agents For Model Training",
+   "l": 4,
+   "f": "6",
+   "o": [
+    "6"
+   ],
+   "why": "Optimizer agents that adjust training settings and accumulate experience across runs.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.33684",
+   "t": "More: Mode-Optimized Reasoning with Self-Adaptive Effort for Self-Evolving Agents",
+   "l": 3,
+   "f": "6",
+   "o": [
+    "6",
+    "5"
+   ],
+   "why": "Self-evolving training that adapts reasoning effort per task.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.33465",
+   "t": "LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery",
+   "l": 2,
+   "f": "9",
+   "o": [
+    "9"
+   ],
+   "why": "Unified framework for self-improving agent-guided equation discovery.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.34450",
+   "t": "EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems",
+   "l": 4,
+   "f": "10",
+   "o": [
+    "10"
+   ],
+   "why": "Self-evolution framework where decentralized agents reuse experience to refine interaction strategies.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.35434",
+   "t": "Skill$^{\\infty}$: Recursive Self-Improvement for Agent Skill Optimization",
+   "l": 5,
+   "f": "4",
+   "o": [
+    "4"
+   ],
+   "why": "Recursive self-improvement that also improves how agent skills are optimized.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.35316",
+   "t": "RSIV-Harness: A Recursive Self-Improvement Harness Framework for Open-Domain Conversational Text-to-Visualization",
+   "l": 2,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Recursive self-improvement harness for conversational text-to-visualization.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.35604",
+   "t": "RoboDoctor: Training-Free Recursive Self-Improvement for Robot Policies",
+   "l": 4,
+   "f": "3",
+   "o": [
+    "3"
+   ],
+   "why": "Training-free recursive self-improvement of how robot policies are used, driven by execution feedback.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.34921",
+   "t": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8",
+    "5"
+   ],
+   "why": "Verifier-grounded self-evolution that generates physical-reasoning data from executable worlds.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.35598",
+   "t": "Evolve on Graph: Self-Evolving Knowledge Graph Reasoning without Question Annotations",
+   "l": 3,
+   "f": "8",
+   "o": [
+    "8"
+   ],
+   "why": "Self-evolving knowledge-graph reasoning that creates its own training questions.",
+   "basis": "abstract"
+  },
+  {
+   "id": "2610.35579",
+   "t": "Infinity Machine: a self-improving AI agent for research",
+   "l": 5,
+   "f": "10",
+   "o": [
+    "10",
+    "3"
+   ],
+   "why": "A self-improving research agent whose proposers and solutions improve over checked research problems.",
+   "basis": "abstract"
+  }
+ ],
+ "reviewed": "All arXiv candidates found up to 2026-10-26 reviewed on 2026-10-27 from title and abstract opening. Methods that implement a self-improvement loop were added; benchmarks, surveys, audits, attack and safety studies, empirical studies and pure theory or position pieces were left out."
+}

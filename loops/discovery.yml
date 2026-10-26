@@ -1,0 +1,11 @@
+name: Weekly paper discovery
+runner: .github/workflows/discover-papers.yml
+trigger: cron weekly
+stop_condition: candidates file written; citation file written
+state: [data/rsi-candidates.json, data/paper-impact.json]
+verifier: python3 scripts/build.py --check   # validate_discovery
+limits:
+  may_write: [data/rsi-candidates.json, data/paper-impact.json]
+  never_touch: ["data/rsi-supplement.json", "pages/**", "blog/**"]   # candidates are reviewed by a human before entering the supplement
+escalation: a failed run (TODO: open an issue like the daily refresh)
+autonomy: time-based, candidates only

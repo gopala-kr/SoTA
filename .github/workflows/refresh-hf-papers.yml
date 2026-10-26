@@ -1,0 +1,60 @@
+name: Refresh HF papers
+
+# Fetches Hugging Face Daily Papers (community-voted) into data/hf-papers.json and commits it.
+# Run it by hand from the Actions tab for the first backfill; after that it refreshes monthly.
+# Scheduled runs only fire on the repository's default branch.
+
+on:
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "First month to fetch (YYYY-MM)"
+        default: "2023-05"
+      top:
+        description: "Papers kept per month"
+        default: "50"
+      include_current:
+        description: "Also fetch the current month, shown as in progress"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 5 2 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-hf-papers
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch papers
+        id: fetch
+        continue-on-error: true
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python3 scripts/import_hf_papers.py --resume --from "${{ inputs.from || '2023-05' }}" --top "${{ inputs.top || '50' }}" ${{ inputs.include_current && '--include-current' || '' }}
+      - name: Rebuild generated files and validate
+        run: |
+          python3 scripts/build.py
+          python3 scripts/build.py --check
+      - name: Commit the refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Refresh Hugging Face papers data"
+            git push
+          fi
+      - name: Fail if the fetch was incomplete
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "Some months could not be fetched (rate limiting?). Completed months were committed; run this workflow again to resume."
+          exit 1

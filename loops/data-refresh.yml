@@ -1,0 +1,12 @@
+name: Daily data refresh
+runner: .github/workflows/refresh-data-daily.yml
+trigger: cron daily (default branch only)
+stop_condition: importer exits 0; months with failed days are not saved
+state: [data/hf-papers.json, data/rsi-papers.json]
+verifier: python3 scripts/build.py --check   # validate_hf, validate_rsi
+limits:
+  max_minutes: workflow timeout
+  may_write: [data/hf-papers.json, data/rsi-papers.json]
+  never_touch: ["pages/**", "blog/**", "data/lab-updates.json", "data/model-releases.json", "data/stack-innovations.json", "data/software-stack.json"]
+escalation: failures open or comment on a GitHub issue labelled data-refresh
+autonomy: time-based

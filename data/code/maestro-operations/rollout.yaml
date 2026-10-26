@@ -1,0 +1,18 @@
+# rollout.yaml — progressive delivery of a new Maestro-1 version (sketch in the
+# style of a Kubernetes canary controller such as Argo Rollouts; field names
+# follow its documentation, check them for your version).
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata: {name: maestro-1}
+spec:
+  strategy:
+    canary:
+      steps:
+      - setWeight: 5          # 5% of conversations, design partners who opted in
+      - pause: {duration: 24h}
+      - analysis: {templates: [{templateName: maestro-slo-and-acceptance}]}
+      - setWeight: 25
+      - pause: {duration: 48h}
+      - analysis: {templates: [{templateName: maestro-slo-and-acceptance}]}
+      - setWeight: 100
+      abortScaleDownDelaySeconds: 3600   # keep the old version warm for instant rollback
